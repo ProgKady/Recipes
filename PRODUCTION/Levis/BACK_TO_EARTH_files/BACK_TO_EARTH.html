@@ -1,0 +1,963 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">table{border-collapse:collapse;table-layout:fixed;border-spacing:0;empty-cells:show}
+.X0{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:22px;}
+.X1{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:2;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:22px;}
+.X2{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,0);border-top-color:000000;border-top-style:solid;border-top-width:2;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:2;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:26px;}
+.X3{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:2;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:26px;}
+.X4{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:2;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:2;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:26px;}
+.X5{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:2;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:24px;}
+.X6{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:24px;}
+.X7{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:2;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:24px;}
+.X8{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:2;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:25px;}
+.X9{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:25px;}
+.X10{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:25px;}
+.X11{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:2;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:25px;}
+.X12{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:2;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:23px;}
+.X13{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:23px;}
+.X14{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:23px;}
+.X15{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:2;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:23px;}
+.X16{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:2;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:26px;}
+.X17{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:center;text-align:center;word-wrap:break-word;height:26px;}
+.X18{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:2;border-left-color:000000;border-left-style:solid;border-left-width:2;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:25px;}
+.X19{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:2;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:25px;}
+.X20{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:2;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:2;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:25px;}
+.X21{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,0);border-top-color:000000;border-top-style:solid;border-top-width:2;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:26px;}
+.X22{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,0);border-top-color:000000;border-top-style:solid;border-top-width:2;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:2;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:26px;}
+.X23{color:rgb(0,0,0);font-family:Calibri;font-size:14.0pt;background-color:rgb(255,255,0);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:25px;}
+.X24{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;background-color:rgb(255,255,0);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:25px;}
+.X25{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(255,255,0);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:25px;}
+.X26{color:rgb(0,0,0);font-family:Calibri;font-size:12.0pt;background-color:rgb(166,166,166);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:23px;}
+.X27{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;background-color:rgb(255,255,0);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:23px;}
+.X28{color:rgb(0,0,0);font-family:Calibri;font-size:11.0pt;background-color:rgb(255,255,255);border-top-color:000000;border-top-style:solid;border-top-width:1;border-bottom-color:000000;border-bottom-style:solid;border-bottom-width:1;border-left-color:000000;border-left-style:solid;border-left-width:1;border-right-color:000000;border-right-style:solid;border-right-width:1;font-weight:bold;vertical-align:bottom;text-align:center;word-wrap:break-word;height:25px;}</style>
+  </head>
+  <body>
+    <table cellspacing="0">
+      <Col width="124px" />
+      <Col width="106px" />
+      <Col width="135px" />
+      <Col width="101px" />
+      <Col width="89px" />
+      <Col width="89px" />
+      <Col width="98px" />
+      <Col width="136px" />
+      <Col width="118px" />
+      <Col width="100px" />
+      <tr>
+        <td class="X0">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X0">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td COLSPAN="3" class="X1">26,07,2021</td>
+        <td class="X0">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X0">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X0">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td class="X0">
+          <div style="width:118px;">&nbsp;</div>
+        </td>
+        <td class="X0">
+          <div style="width:105px !Important;width:105px;" />
+        </td>
+      </tr>
+      <tr>
+        <td COLSPAN="6" class="X2">PRODUCTION&nbsp;RECEPI</td>
+        <td class="X3">
+          <div style="width:98px;">DATE:</div>
+        </td>
+        <td COLSPAN="3" class="X4">15-May</td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <div style="width:124px;">CUST&nbsp;&nbsp;:</div>
+        </td>
+        <td COLSPAN="5" class="X6">LEVI'S</td>
+        <td class="X6">
+          <div style="width:98px;">WASH&nbsp;NAME:</div>
+        </td>
+        <td COLSPAN="3" class="X7">BACK&nbsp;TO&nbsp;EARTH</td>
+      </tr>
+      <tr>
+        <td class="X8">
+          <div style="width:124px;">PO&nbsp;NO&nbsp;:</div>
+        </td>
+        <td COLSPAN="5" class="X9"><div style="width:558px !Important;width:558px;" /></td>
+        <td ROWSPAN="2" class="X10">KG&nbsp;:</td>
+        <td COLSPAN="3" ROWSPAN="2" class="X11">80</td>
+      </tr>
+      <tr>
+        <td class="X5">
+          <div style="width:124px;">PO&nbsp;AMOUNT&nbsp;:</div>
+        </td>
+        <td COLSPAN="5" class="X6"><div style="width:558px !Important;width:558px;" /></td>
+      </tr>
+      <tr>
+        <td class="X12">
+          <div style="width:124px;">STYLE&nbsp;NAME&nbsp;;</div>
+        </td>
+        <td COLSPAN="5" class="X13"><div style="width:558px !Important;width:558px;" /></td>
+        <td ROWSPAN="2" class="X14">PCS&nbsp;:</td>
+        <td COLSPAN="3" ROWSPAN="2" class="X15">120</td>
+      </tr>
+      <tr>
+        <td class="X16">
+          <div style="width:124px;">MACHINE&nbsp;NO</div>
+        </td>
+        <td class="X17">
+          <div style="width:106px;">OPERATOR</div>
+        </td>
+        <td class="X17">
+          <div style="width:135px;">SPINING&nbsp;NO</div>
+        </td>
+        <td class="X17">
+          <div style="width:101px;">OPERATOR</div>
+        </td>
+        <td class="X17">
+          <div style="width:89px;">DRYER&nbsp;NO</div>
+        </td>
+        <td class="X17">
+          <div style="width:89px;">OPERATOR</div>
+        </td>
+      </tr>
+      <tr>
+        <td class="X18">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X19">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X19">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X19">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X19">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X19">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X19">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X19">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X20"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X2">
+          <div style="width:124px;">ACTION&nbsp;NO</div>
+        </td>
+        <td class="X21">
+          <div style="width:106px;">ACTION&nbsp;NAME</div>
+        </td>
+        <td class="X21">
+          <div style="width:135px;">TIME(MIN)</div>
+        </td>
+        <td class="X21">
+          <div style="width:101px;">TEMP©</div>
+        </td>
+        <td class="X21">
+          <div style="width:89px;">LITER'S</div>
+        </td>
+        <td class="X21">
+          <div style="width:89px;">AMT</div>
+        </td>
+        <td class="X21">
+          <div style="width:98px;">UNIT'S</div>
+        </td>
+        <td class="X21">
+          <div style="width:136px;">CHEMICALE</div>
+        </td>
+        <td COLSPAN="2" class="X22">CHEMICALE&nbsp;SIGN</td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td COLSPAN="2" class="X23">WHISKERS</td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td COLSPAN="2" class="X23">SCRAPPING</td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td COLSPAN="2" class="X23">PP&nbsp;SPRAY</td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:106px;">DESIZE</div>
+        </td>
+        <td class="X9">
+          <div style="width:135px;">5</div>
+        </td>
+        <td class="X9">
+          <div style="width:101px;">50</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">300</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">600</div>
+        </td>
+        <td class="X9">
+          <div style="width:98px;">GR</div>
+        </td>
+        <td class="X9">
+          <div style="width:136px;">DESPERSE</div>
+        </td>
+        <td COLSPAN="2" class="X24">ROYA&nbsp;ZYME&nbsp;750</td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:89px;">1.5</div>
+        </td>
+        <td class="X9">
+          <div style="width:98px;">KG</div>
+        </td>
+        <td class="X9">
+          <div style="width:136px;">SULFIT</div>
+        </td>
+        <td COLSPAN="2" class="X24">ROSPERS&nbsp;TMS&nbsp;PLUS</td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:106px;">RINSE</div>
+        </td>
+        <td class="X9">
+          <div style="width:135px;">2</div>
+        </td>
+        <td class="X9">
+          <div style="width:101px;">20</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">400</div>
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:106px;">HN</div>
+        </td>
+        <td class="X9">
+          <div style="width:135px;">3</div>
+        </td>
+        <td class="X9">
+          <div style="width:101px;">55</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">600</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">600</div>
+        </td>
+        <td class="X9">
+          <div style="width:98px;">GR</div>
+        </td>
+        <td class="X9">
+          <div style="width:136px;">HN</div>
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:106px;">PEROXIDE</div>
+        </td>
+        <td class="X9">
+          <div style="width:135px;">5&nbsp;CONT</div>
+        </td>
+        <td COLSPAN="2" class="X25">ON&nbsp;SAME&nbsp;BATH</td>
+        <td class="X9">
+          <div style="width:89px;">1200</div>
+        </td>
+        <td class="X9">
+          <div style="width:98px;">GR</div>
+        </td>
+        <td class="X9">
+          <div style="width:136px;">SODA&nbsp;&nbsp;ASH</div>
+        </td>
+        <td COLSPAN="2" class="X24"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:89px;">6</div>
+        </td>
+        <td class="X9">
+          <div style="width:98px;">KG</div>
+        </td>
+        <td class="X9">
+          <div style="width:136px;">PEROXIDE</div>
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:106px;">RINSE</div>
+        </td>
+        <td class="X9">
+          <div style="width:135px;">2</div>
+        </td>
+        <td class="X9">
+          <div style="width:101px;">20</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">500</div>
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:106px;">RINSE</div>
+        </td>
+        <td class="X9">
+          <div style="width:135px;">2</div>
+        </td>
+        <td class="X9">
+          <div style="width:101px;">40</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">500</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">500</div>
+        </td>
+        <td class="X9">
+          <div style="width:98px;">GR</div>
+        </td>
+        <td class="X9">
+          <div style="width:136px;">DESPERSE</div>
+        </td>
+        <td class="X9">
+          <div style="width:125px !Important;width:125px;" />
+        </td>
+        <td class="X9">
+          <div style="width:105px !Important;width:105px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td class="X9">
+          <div style="width:125px !Important;width:125px;" />
+        </td>
+        <td class="X9">
+          <div style="width:105px !Important;width:105px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:106px;">RINSE</div>
+        </td>
+        <td class="X9">
+          <div style="width:135px;">2</div>
+        </td>
+        <td class="X9">
+          <div style="width:101px;">20</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">500</div>
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X9"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X13">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X13">
+          <div style="width:106px;">TINT</div>
+        </td>
+        <td class="X13">
+          <div style="width:135px;">5</div>
+        </td>
+        <td class="X13">
+          <div style="width:101px;">40</div>
+        </td>
+        <td class="X13">
+          <div style="width:89px;">600</div>
+        </td>
+        <td class="X26">
+          <div style="width:89px;">50</div>
+        </td>
+        <td class="X26">
+          <div style="width:98px;">GR</div>
+        </td>
+        <td class="X26">
+          <div style="width:136px;">BLUE</div>
+        </td>
+        <td COLSPAN="2" class="X27">TUBANTIN&nbsp;BLUE</td>
+      </tr>
+      <tr>
+        <td class="X13">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X13">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X13">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X13">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X13">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X26">
+          <div style="width:89px;">28</div>
+        </td>
+        <td class="X26">
+          <div style="width:98px;">GR</div>
+        </td>
+        <td class="X26">
+          <div style="width:136px;">YELLOW</div>
+        </td>
+        <td COLSPAN="2" class="X27">TUBANTIN&nbsp;YELLOW&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="X13">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X13">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X13">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X13">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X13">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X26">
+          <div style="width:89px;">25</div>
+        </td>
+        <td class="X26">
+          <div style="width:98px;">GR</div>
+        </td>
+        <td class="X26">
+          <div style="width:136px;">BLACK</div>
+        </td>
+        <td COLSPAN="2" class="X27">TUBANTIN&nbsp;&nbsp;BLACK</td>
+      </tr>
+      <tr>
+        <td class="X13">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X13">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X13">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X13">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X13">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X26">
+          <div style="width:89px;">4</div>
+        </td>
+        <td class="X26">
+          <div style="width:98px;">GR</div>
+        </td>
+        <td class="X26">
+          <div style="width:136px;">TURQUISE</div>
+        </td>
+        <td COLSPAN="2" class="X27">TUBANTIN&nbsp;&nbsp;TURQUISE</td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:89px;">8</div>
+        </td>
+        <td class="X9">
+          <div style="width:98px;">KG</div>
+        </td>
+        <td class="X9">
+          <div style="width:136px;">SALT</div>
+        </td>
+        <td COLSPAN="2" class="X24">SALT-LOCAL</td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:106px;">SOFT</div>
+        </td>
+        <td class="X9">
+          <div style="width:135px;">4</div>
+        </td>
+        <td class="X9">
+          <div style="width:101px;">30</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">500</div>
+        </td>
+        <td class="X9">
+          <div style="width:89px;">800</div>
+        </td>
+        <td class="X9">
+          <div style="width:98px;">GR</div>
+        </td>
+        <td class="X9">
+          <div style="width:136px;">FIX</div>
+        </td>
+        <td COLSPAN="2" class="X28"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:89px;">6</div>
+        </td>
+        <td class="X9">
+          <div style="width:98px;">KG</div>
+        </td>
+        <td class="X9">
+          <div style="width:136px;">SOFT</div>
+        </td>
+        <td COLSPAN="2" class="X28"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td COLSPAN="2" class="X25">EXTRACT&nbsp;&&nbsp;DRYER</td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td COLSPAN="2" class="X28"><div style="width:232px !Important;width:232px;" /></td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td class="X28">
+          <div style="width:125px !Important;width:125px;" />
+        </td>
+        <td class="X28">
+          <div style="width:105px !Important;width:105px;" />
+        </td>
+      </tr>
+      <tr>
+        <td class="X9">
+          <div style="width:131px !Important;width:131px;" />
+        </td>
+        <td class="X9">
+          <div style="width:112px !Important;width:112px;" />
+        </td>
+        <td class="X9">
+          <div style="width:143px !Important;width:143px;" />
+        </td>
+        <td class="X9">
+          <div style="width:107px !Important;width:107px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:94px !Important;width:94px;" />
+        </td>
+        <td class="X9">
+          <div style="width:103px !Important;width:103px;" />
+        </td>
+        <td class="X9">
+          <div style="width:144px !Important;width:144px;" />
+        </td>
+        <td class="X9">
+          <div style="width:125px !Important;width:125px;" />
+        </td>
+        <td class="X9">
+          <div style="width:105px !Important;width:105px;" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

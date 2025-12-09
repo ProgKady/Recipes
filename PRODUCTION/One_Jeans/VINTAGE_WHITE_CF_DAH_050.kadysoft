@@ -1,0 +1,772 @@
+<html lang="en-US" contenteditablee>
+ <head>
+  <title>Kadysoft</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>tdd {height:5px;max-width:100%;white-space:nowrap;}tablee {height:5px;max-width:100%;height:100%;white-space:nowrap;}trr {height:5px;max-width:100%;white-space:nowrap;}</style>
+ </head>
+ <body>
+  <center>
+   <!-- Creating Recipe From Kadysoft Ltdd.-->
+   <tablee id="exTable" border="1" cellspacing="0">
+    <tbodyy>
+     <trr>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+      <tdd class="" bgcolor="#ffff00" align="center">
+       27/09/2023
+      </tdd>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+      <tdd class="" bgcolor="#ffff00" align="center"></tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b>PRODUCTION RECIPE</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>DATE :</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>06/07/2023</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00">
+       CUST :
+      </tdd>
+      <tdd class="" align="center">
+       <b>ONE JEANS</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>WASH NAME :</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>VINTAGE WHITE - CF DAH 050</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00">
+       PO NO :
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00">
+       PO AMOUNT :
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>KG :</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>100</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00">
+       STYLE NAME :
+      </tdd>
+      <tdd class="" align="center">
+       <b>DGVB 4776A</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00">
+       MACHINE NO :
+      </tdd>
+      <tdd class="" align="center">
+       <b>OPERATOR</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>SPINING NO</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>OPERATOR</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>DRYER NO</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>OPERATOR</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>PCS :</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>150</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00">
+       ACTION NO
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>ACTION NAME</b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>TIME(MIN)</b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>TEMP</b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>LITER'S</b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>AMT</b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>UNIT'S</b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>CHEMICAL DESCRIPTION</b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>CHEMICAL NAME</b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>CHEMICAL LOT NUMBER</b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>PH</b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center" bgcolor="#ffff00">
+       <b>INSIDE OUT </b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b>DESIZE</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>6</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>40</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>500</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>500</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>GR</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>DISPERSE</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>ROSPERS TMS PLUS</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>TR202290112</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>2</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>KG</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>PEROXIDE</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>HYDROGEN PEROXIDE (H2O2)</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b> </b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b>RINSE</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>2</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>20</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>600</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b> </b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b>RINSE</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>2</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>20</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>600</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b> </b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b> </b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b>SOFT</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>7</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>40</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>500</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>15</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>KG</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>SOFT</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>ROSOFT ESQ 7820</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>TR202290123</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>500</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>GR</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>SILICON</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>ROSIL 9595</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b>TR2020070710</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00"></tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="selectArea" align="center" bgcolor="#ffff00">
+       <b>EXTRACT &amp; DRYER</b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+     <trr>
+      <tdd class="" bgcolor="#ffff00">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+      <tdd class="" align="center">
+       <b></b>
+      </tdd>
+     </trr>
+    </tbodyy>
+   </tablee>
+  </center> 
+ </body>
+</html>
