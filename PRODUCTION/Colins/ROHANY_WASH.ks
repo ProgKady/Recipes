@@ -1,1306 +1,1385 @@
 
-
-<!DOCTYPE HTML>
-<HTML LANG="AR">
-<HEAD>
-<TITLE>KADYSOFT</TITLE>
-<META CHARSET="UTF-8">
-<META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0">
-<STYLE>TD {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
+<!﬩הּﬨךּסּוּשׁ שּׂךּגּבּ>
+<שּׂךּגּבּ בּﬦדּשּׁ="ﬦטּ" ﬨהּדּךּשׁדּךּשׁ﬩אַךּﬦﬧבּשׁ>
+ <שּׂשׁﬦ﬩> 
+  <ךּאַךּבּשׁ>אּﬦ﬩סּיּהּשׂךּ</ךּאַךּבּשׁ> 
+  <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
+  <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ"> 
+  <יּךּסּבּשׁ>ךּ﬩ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TABLE {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-HEIGHT:100%;
-WHITE-SPACE:NOWRAP;
+ךּﬦﬧבּשׁ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+שּׂשׁאַשּׁשּׂךּ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TR {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
-}/* CENTERED WATERMARK */
-    .WATERMARK {
-      POSITION: FIXED;
-      TOP: 50%;
-      LEFT: 50%;
-      TRANSFORM: TRANSLATE(-50%, -50%) ROTATE(-45DEG);
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: NO-REPEAT;
-      BACKGROUND-SIZE: CONTAIN;
-      WIDTH: 300PX;
-      HEIGHT: 200PX;
-      OPACITY: 0.3;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
+ךּטּ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
+}/* ﬨשׁדּךּשׁטּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: תּפּ%;
+      בּשׁשׂךּ: תּפּ%;
+      ךּטּﬦדּיּשׂהּטּגּ: ךּטּﬦדּיּבּﬦךּשׁ(-תּפּ%, -תּפּ%) טּהּךּﬦךּשׁ(-שּתּ﬩שׁשּׁ);
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: ﬨהּדּךּﬦאַדּ;
+      מּאַ﬩ךּשּׂ: רּפּפּוּנּ;
+      שּׂשׁאַשּׁשּׂךּ: קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.רּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
     }
-    /* REPEATED WATERMARK */
-    .WATERMARK-REPEATED {
-      POSITION: FIXED;
-      TOP: 0;
-      LEFT: 0;
-      WIDTH: 100%;
-      HEIGHT: 100%;
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: REPEAT;
-      BACKGROUND-SIZE: 300PX 200PX;
-      OPACITY: 0.2;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
-    }</STYLE></HEAD>
-<BODY><CENTER>
-<DIV CLASS="WATERMARK"></DIV>
-
-
-<!-- CREATING RECIPE FROM KADYSOFT LTD.-->
-
-
-<HTML CONTENTEDITABLE LANG="AR">
- <HEAD> 
-  <TITLE>KADYSOFT</TITLE> 
-  <META CHARSET="UTF-8"> 
-  <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0"> 
-  <STYLE>TD {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
+    /* טּשׁוּשׁﬦךּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ-טּשׁוּשׁﬦךּשׁ﬩ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: פּ;
+      בּשׁשׂךּ: פּ;
+      מּאַ﬩ךּשּׂ: צּפּפּ%;
+      שּׂשׁאַשּׁשּׂךּ: צּפּפּ%;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: רּפּפּוּנּ קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.קּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
+    }</יּךּסּבּשׁ>
+ </שּׂשׁﬦ﬩> 
+ <ﬧהּ﬩סּ>
+  <ﬨשׁדּךּשׁטּ> 
+   <﬩אַלּ ﬨבּﬦיּיּ="מּﬦךּשׁטּגּﬦטּאּ"></﬩אַלּ> 
+   <!-- ﬨטּשׁﬦךּאַדּשּׁ טּשׁﬨאַוּשׁ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.-->   
+   <ךּאַךּבּשׁ>אּﬦ﬩סּיּהּשׂךּ</ךּאַךּבּשׁ> 
+   <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
+   <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ"> 
+   <יּךּסּבּשׁ>ךּ﬩ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TABLE {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-HEIGHT:100%;
-WHITE-SPACE:NOWRAP;
+ךּﬦﬧבּשׁ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+שּׂשׁאַשּׁשּׂךּ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TR {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
-}/* CENTERED WATERMARK */
-    .WATERMARK {
-      POSITION: FIXED;
-      TOP: 50%;
-      LEFT: 50%;
-      TRANSFORM: TRANSLATE(-50%, -50%) ROTATE(-45DEG);
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: NO-REPEAT;
-      BACKGROUND-SIZE: CONTAIN;
-      WIDTH: 300PX;
-      HEIGHT: 200PX;
-      OPACITY: 0.3;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
+ךּטּ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
+}/* ﬨשׁדּךּשׁטּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: תּפּ%;
+      בּשׁשׂךּ: תּפּ%;
+      ךּטּﬦדּיּשׂהּטּגּ: ךּטּﬦדּיּבּﬦךּשׁ(-תּפּ%, -תּפּ%) טּהּךּﬦךּשׁ(-שּתּ﬩שׁשּׁ);
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: ﬨהּדּךּﬦאַדּ;
+      מּאַ﬩ךּשּׂ: רּפּפּוּנּ;
+      שּׂשׁאַשּׁשּׂךּ: קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.רּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
     }
-    /* REPEATED WATERMARK */
-    .WATERMARK-REPEATED {
-      POSITION: FIXED;
-      TOP: 0;
-      LEFT: 0;
-      WIDTH: 100%;
-      HEIGHT: 100%;
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: REPEAT;
-      BACKGROUND-SIZE: 300PX 200PX;
-      OPACITY: 0.2;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
-    }</STYLE> 
- </HEAD> 
- <BODY> 
-  <CENTER> 
-   <CENTER> 
-    <DIV CLASS="WATERMARK"></DIV> 
-    <!-- CREATING RECIPE FROM KADYSOFT LTD.--> 
-   </CENTER> 
-  </CENTER> 
-  <META CHARSET="UTF-8"> 
-  <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0"> 
-  <STYLE>TD {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
+    /* טּשׁוּשׁﬦךּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ-טּשׁוּשׁﬦךּשׁ﬩ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: פּ;
+      בּשׁשׂךּ: פּ;
+      מּאַ﬩ךּשּׂ: צּפּפּ%;
+      שּׂשׁאַשּׁשּׂךּ: צּפּפּ%;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: רּפּפּוּנּ קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.קּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
+    }</יּךּסּבּשׁ>   
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <﬩אַלּ ﬨבּﬦיּיּ="מּﬦךּשׁטּגּﬦטּאּ"></﬩אַלּ> 
+     <!-- ﬨטּשׁﬦךּאַדּשּׁ טּשׁﬨאַוּשׁ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.--> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
+   <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ"> 
+   <יּךּסּבּשׁ>ךּ﬩ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TABLE {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-HEIGHT:100%;
-WHITE-SPACE:NOWRAP;
+ךּﬦﬧבּשׁ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+שּׂשׁאַשּׁשּׂךּ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TR {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
-}/* CENTERED WATERMARK */
-    .WATERMARK {
-      POSITION: FIXED;
-      TOP: 50%;
-      LEFT: 50%;
-      TRANSFORM: TRANSLATE(-50%, -50%) ROTATE(-45DEG);
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: NO-REPEAT;
-      BACKGROUND-SIZE: CONTAIN;
-      WIDTH: 300PX;
-      HEIGHT: 200PX;
-      OPACITY: 0.3;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
+ךּטּ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
+}/* ﬨשׁדּךּשׁטּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: תּפּ%;
+      בּשׁשׂךּ: תּפּ%;
+      ךּטּﬦדּיּשׂהּטּגּ: ךּטּﬦדּיּבּﬦךּשׁ(-תּפּ%, -תּפּ%) טּהּךּﬦךּשׁ(-שּתּ﬩שׁשּׁ);
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: ﬨהּדּךּﬦאַדּ;
+      מּאַ﬩ךּשּׂ: רּפּפּוּנּ;
+      שּׂשׁאַשּׁשּׂךּ: קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.רּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
     }
-    /* REPEATED WATERMARK */
-    .WATERMARK-REPEATED {
-      POSITION: FIXED;
-      TOP: 0;
-      LEFT: 0;
-      WIDTH: 100%;
-      HEIGHT: 100%;
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: REPEAT;
-      BACKGROUND-SIZE: 300PX 200PX;
-      OPACITY: 0.2;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
-    }</STYLE> 
-  <CENTER> 
-   <CENTER> 
-    <CENTER> 
-     <CENTER> 
-      <DIV CLASS="WATERMARK"></DIV> 
-      <!-- CREATING RECIPE FROM KADYSOFT LTD.--> 
-     </CENTER> 
-    </CENTER> 
-   </CENTER> 
-  </CENTER> 
-  <META CHARSET="UTF-8"> 
-  <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0"> 
-  <STYLE>TD {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
+    /* טּשׁוּשׁﬦךּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ-טּשׁוּשׁﬦךּשׁ﬩ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: פּ;
+      בּשׁשׂךּ: פּ;
+      מּאַ﬩ךּשּׂ: צּפּפּ%;
+      שּׂשׁאַשּׁשּׂךּ: צּפּפּ%;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: רּפּפּוּנּ קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.קּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
+    }</יּךּסּבּשׁ> 
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <ﬨשׁדּךּשׁטּ> 
+      <ﬨשׁדּךּשׁטּ> 
+       <﬩אַלּ ﬨבּﬦיּיּ="מּﬦךּשׁטּגּﬦטּאּ"></﬩אַלּ> 
+       <!-- ﬨטּשׁﬦךּאַדּשּׁ טּשׁﬨאַוּשׁ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.--> 
+      </ﬨשׁדּךּשׁטּ> 
+     </ﬨשׁדּךּשׁטּ> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
+   <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ"> 
+   <יּךּסּבּשׁ>ךּ﬩ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TABLE {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-HEIGHT:100%;
-WHITE-SPACE:NOWRAP;
+ךּﬦﬧבּשׁ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+שּׂשׁאַשּׁשּׂךּ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TR {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
-}/* CENTERED WATERMARK */
-    .WATERMARK {
-      POSITION: FIXED;
-      TOP: 50%;
-      LEFT: 50%;
-      TRANSFORM: TRANSLATE(-50%, -50%) ROTATE(-45DEG);
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: NO-REPEAT;
-      BACKGROUND-SIZE: CONTAIN;
-      WIDTH: 300PX;
-      HEIGHT: 200PX;
-      OPACITY: 0.3;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
+ךּטּ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
+}/* ﬨשׁדּךּשׁטּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: תּפּ%;
+      בּשׁשׂךּ: תּפּ%;
+      ךּטּﬦדּיּשׂהּטּגּ: ךּטּﬦדּיּבּﬦךּשׁ(-תּפּ%, -תּפּ%) טּהּךּﬦךּשׁ(-שּתּ﬩שׁשּׁ);
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: ﬨהּדּךּﬦאַדּ;
+      מּאַ﬩ךּשּׂ: רּפּפּוּנּ;
+      שּׂשׁאַשּׁשּׂךּ: קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.רּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
     }
-    /* REPEATED WATERMARK */
-    .WATERMARK-REPEATED {
-      POSITION: FIXED;
-      TOP: 0;
-      LEFT: 0;
-      WIDTH: 100%;
-      HEIGHT: 100%;
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: REPEAT;
-      BACKGROUND-SIZE: 300PX 200PX;
-      OPACITY: 0.2;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
-    }</STYLE> 
-  <CENTER> 
-   <CENTER> 
-    <CENTER> 
-     <CENTER> 
-      <CENTER> 
-       <CENTER> 
-        <DIV CLASS="WATERMARK"></DIV> 
-        <!-- CREATING RECIPE FROM KADYSOFT LTD.--> 
-       </CENTER> 
-      </CENTER> 
-     </CENTER> 
-    </CENTER> 
-   </CENTER> 
-  </CENTER> 
-  <META CHARSET="UTF-8"> 
-  <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0"> 
-  <STYLE>TD {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
+    /* טּשׁוּשׁﬦךּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ-טּשׁוּשׁﬦךּשׁ﬩ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: פּ;
+      בּשׁשׂךּ: פּ;
+      מּאַ﬩ךּשּׂ: צּפּפּ%;
+      שּׂשׁאַשּׁשּׂךּ: צּפּפּ%;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: רּפּפּוּנּ קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.קּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
+    }</יּךּסּבּשׁ> 
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <ﬨשׁדּךּשׁטּ> 
+      <ﬨשׁדּךּשׁטּ> 
+       <ﬨשׁדּךּשׁטּ> 
+        <ﬨשׁדּךּשׁטּ> 
+         <﬩אַלּ ﬨבּﬦיּיּ="מּﬦךּשׁטּגּﬦטּאּ"></﬩אַלּ> 
+         <!-- ﬨטּשׁﬦךּאַדּשּׁ טּשׁﬨאַוּשׁ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.--> 
+        </ﬨשׁדּךּשׁטּ> 
+       </ﬨשׁדּךּשׁטּ> 
+      </ﬨשׁדּךּשׁטּ> 
+     </ﬨשׁדּךּשׁטּ> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
+   <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ"> 
+   <יּךּסּבּשׁ>ךּ﬩ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TABLE {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-HEIGHT:100%;
-WHITE-SPACE:NOWRAP;
+ךּﬦﬧבּשׁ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+שּׂשׁאַשּׁשּׂךּ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TR {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
-}/* CENTERED WATERMARK */
-    .WATERMARK {
-      POSITION: FIXED;
-      TOP: 50%;
-      LEFT: 50%;
-      TRANSFORM: TRANSLATE(-50%, -50%) ROTATE(-45DEG);
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: NO-REPEAT;
-      BACKGROUND-SIZE: CONTAIN;
-      WIDTH: 300PX;
-      HEIGHT: 200PX;
-      OPACITY: 0.3;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
+ךּטּ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
+}/* ﬨשׁדּךּשׁטּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: תּפּ%;
+      בּשׁשׂךּ: תּפּ%;
+      ךּטּﬦדּיּשׂהּטּגּ: ךּטּﬦדּיּבּﬦךּשׁ(-תּפּ%, -תּפּ%) טּהּךּﬦךּשׁ(-שּתּ﬩שׁשּׁ);
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: ﬨהּדּךּﬦאַדּ;
+      מּאַ﬩ךּשּׂ: רּפּפּוּנּ;
+      שּׂשׁאַשּׁשּׂךּ: קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.רּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
     }
-    /* REPEATED WATERMARK */
-    .WATERMARK-REPEATED {
-      POSITION: FIXED;
-      TOP: 0;
-      LEFT: 0;
-      WIDTH: 100%;
-      HEIGHT: 100%;
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: REPEAT;
-      BACKGROUND-SIZE: 300PX 200PX;
-      OPACITY: 0.2;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
-    }</STYLE> 
-  <CENTER> 
-   <CENTER> 
-    <CENTER> 
-     <CENTER> 
-      <CENTER> 
-       <CENTER> 
-        <CENTER> 
-         <CENTER> 
-          <DIV CLASS="WATERMARK"></DIV> 
-          <!-- CREATING RECIPE FROM KADYSOFT LTD.--> 
-         </CENTER> 
-        </CENTER> 
-       </CENTER> 
-      </CENTER> 
-     </CENTER> 
-    </CENTER> 
-   </CENTER> 
-  </CENTER> 
-  <STYLE>
-        BODY {
-             NONE;
-             NONE;
-             NONE;
-             NONE;
+    /* טּשׁוּשׁﬦךּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ-טּשׁוּשׁﬦךּשׁ﬩ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: פּ;
+      בּשׁשׂךּ: פּ;
+      מּאַ﬩ךּשּׂ: צּפּפּ%;
+      שּׂשׁאַשּׁשּׂךּ: צּפּפּ%;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: רּפּפּוּנּ קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.קּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
+    }</יּךּסּבּשׁ> 
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <ﬨשׁדּךּשׁטּ> 
+      <ﬨשׁדּךּשׁטּ> 
+       <ﬨשׁדּךּשׁטּ> 
+        <ﬨשׁדּךּשׁטּ> 
+         <ﬨשׁדּךּשׁטּ> 
+          <ﬨשׁדּךּשׁטּ> 
+           <﬩אַלּ ﬨבּﬦיּיּ="מּﬦךּשׁטּגּﬦטּאּ"></﬩אַלּ> 
+           <!-- ﬨטּשׁﬦךּאַדּשּׁ טּשׁﬨאַוּשׁ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.--> 
+          </ﬨשׁדּךּשׁטּ> 
+         </ﬨשׁדּךּשׁטּ> 
+        </ﬨשׁדּךּשׁטּ> 
+       </ﬨשׁדּךּשׁטּ> 
+      </ﬨשׁדּךּשׁטּ> 
+     </ﬨשׁדּךּשׁטּ> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
+   <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ"> 
+   <יּךּסּבּשׁ>ךּ﬩ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
+}
+ךּﬦﬧבּשׁ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+שּׂשׁאַשּׁשּׂךּ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
+}
+ךּטּ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
+}/* ﬨשׁדּךּשׁטּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: תּפּ%;
+      בּשׁשׂךּ: תּפּ%;
+      ךּטּﬦדּיּשׂהּטּגּ: ךּטּﬦדּיּבּﬦךּשׁ(-תּפּ%, -תּפּ%) טּהּךּﬦךּשׁ(-שּתּ﬩שׁשּׁ);
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: ﬨהּדּךּﬦאַדּ;
+      מּאַ﬩ךּשּׂ: רּפּפּוּנּ;
+      שּׂשׁאַשּׁשּׂךּ: קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.רּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
+    }
+    /* טּשׁוּשׁﬦךּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ-טּשׁוּשׁﬦךּשׁ﬩ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: פּ;
+      בּשׁשׂךּ: פּ;
+      מּאַ﬩ךּשּׂ: צּפּפּ%;
+      שּׂשׁאַשּׁשּׂךּ: צּפּפּ%;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: רּפּפּוּנּ קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.קּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
+    }</יּךּסּבּשׁ> 
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <ﬨשׁדּךּשׁטּ> 
+      <ﬨשׁדּךּשׁטּ> 
+       <ﬨשׁדּךּשׁטּ> 
+        <ﬨשׁדּךּשׁטּ> 
+         <ﬨשׁדּךּשׁטּ> 
+          <ﬨשׁדּךּשׁטּ> 
+           <ﬨשׁדּךּשׁטּ> 
+            <ﬨשׁדּךּשׁטּ> 
+             <﬩אַלּ ﬨבּﬦיּיּ="מּﬦךּשׁטּגּﬦטּאּ"></﬩אַלּ> 
+             <!-- ﬨטּשׁﬦךּאַדּשּׁ טּשׁﬨאַוּשׁ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.--> 
+            </ﬨשׁדּךּשׁטּ> 
+           </ﬨשׁדּךּשׁטּ> 
+          </ﬨשׁדּךּשׁטּ> 
+         </ﬨשׁדּךּשׁטּ> 
+        </ﬨשׁדּךּשׁטּ> 
+       </ﬨשׁדּךּשׁטּ> 
+      </ﬨשׁדּךּשׁטּ> 
+     </ﬨשׁדּךּשׁטּ> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <יּךּסּבּשׁ>
+        ﬧהּ﬩סּ {
+             דּהּדּשׁ;
+             דּהּדּשׁ;
+             דּהּדּשׁ;
+             דּהּדּשׁ;
         }
-    </STYLE> 
-  <CENTER> 
-   <CENTER> 
-    <CENTER> 
-     <CENTER> 
-      <CENTER> 
-       <CENTER> 
-        <CENTER> 
-         <CENTER> 
-          <SCRIPT>
-        ('DRAGSTART', FUNCTION(EVENT) {
+    </יּךּסּבּשׁ> 
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <ﬨשׁדּךּשׁטּ> 
+      <ﬨשׁדּךּשׁטּ> 
+       <ﬨשׁדּךּשׁטּ> 
+        <ﬨשׁדּךּשׁטּ> 
+         <ﬨשׁדּךּשׁטּ> 
+          <ﬨשׁדּךּשׁטּ> 
+           <ﬨשׁדּךּשׁטּ> 
+            <ﬨשׁדּךּשׁטּ> 
+             <יּﬨטּאַוּךּ>
+        ('﬩טּﬦשּׁיּךּﬦטּךּ', שׂכּדּﬨךּאַהּדּ(שׁלּשׁדּךּ) {
             
         });
 
-        ('DROP', FUNCTION(EVENT) {
+        ('﬩טּהּוּ', שׂכּדּﬨךּאַהּדּ(שׁלּשׁדּךּ) {
             
         });
 
-        ('CONTEXTMENU', FUNCTION(EVENT) {
+        ('ﬨהּדּךּשׁנּךּגּשׁדּכּ', שׂכּדּﬨךּאַהּדּ(שׁלּשׁדּךּ) {
             
         });
-    </SCRIPT> 
-          <SCRIPT>
+    </יּﬨטּאַוּךּ> 
+             <יּﬨטּאַוּךּ>
   
-  WINDOW.ADDEVENTLISTENER(`CONTEXTMENU`, (E) => {
+  מּאַדּ﬩הּמּ.ﬦ﬩﬩שׁלּשׁדּךּבּאַיּךּשׁדּשׁטּ(`ﬨהּדּךּשׁנּךּגּשׁדּכּ`, (שׁ) => {
     
 });
   
-  </SCRIPT> 
-         </CENTER> 
-        </CENTER> 
-       </CENTER> 
-      </CENTER> 
-     </CENTER> 
-    </CENTER> 
-   </CENTER> 
-  </CENTER> 
-  <META CHARSET="UTF-8"> 
-  <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, USER-SCALABLE=NO, INITIAL-SCALE=1.0, MAXIMUM-SCALE=1.0, MINIMUM-SCALE=1.0"> 
-  <META HTTP-EQUIV="X-UA-COMPATIBLE" CONTENT="IE=EDGE"> 
-  <CENTER> 
-   <CENTER> 
-    <CENTER> 
-     <CENTER> 
-      <CENTER> 
-       <CENTER> 
-        <CENTER> 
-         <CENTER> 
-          <SCRIPT>
+  </יּﬨטּאַוּךּ> 
+            </ﬨשׁדּךּשׁטּ> 
+           </ﬨשׁדּךּשׁטּ> 
+          </ﬨשׁדּךּשׁטּ> 
+         </ﬨשׁדּךּשׁטּ> 
+        </ﬨשׁדּךּשׁטּ> 
+       </ﬨשׁדּךּשׁטּ> 
+      </ﬨשׁדּךּשׁטּ> 
+     </ﬨשׁדּךּשׁטּ> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
+   <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, כּיּשׁטּ-יּﬨﬦבּﬦﬧבּשׁ=דּהּ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ, גּﬦנּאַגּכּגּ-יּﬨﬦבּשׁ=צּ.פּ, גּאַדּאַגּכּגּ-יּﬨﬦבּשׁ=צּ.פּ"> 
+   <גּשׁךּﬦ שּׂךּךּוּ-שׁזּכּאַלּ="נּ-כּﬦ-ﬨהּגּוּﬦךּאַﬧבּשׁ" ﬨהּדּךּשׁדּךּ="אַשׁ=שׁ﬩שּׁשׁ"> 
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <ﬨשׁדּךּשׁטּ> 
+      <ﬨשׁדּךּשׁטּ> 
+       <ﬨשׁדּךּשׁטּ> 
+        <ﬨשׁדּךּשׁטּ> 
+         <ﬨשׁדּךּשׁטּ> 
+          <ﬨשׁדּךּשׁטּ> 
+           <ﬨשׁדּךּשׁטּ> 
+            <ﬨשׁדּךּשׁטּ> 
+             <יּﬨטּאַוּךּ>
             
-            ('KEYDOWN', EVENT => {
-  CONSOLE.LOG(`USER PRESSED: ${EVENT.KEY}`);
+            ('אּשׁסּ﬩הּמּדּ', שׁלּשׁדּךּ => {
+  ﬨהּדּיּהּבּשׁ.בּהּשּׁ(`כּיּשׁטּ וּטּשׁיּיּשׁ﬩: ${שׁלּשׁדּךּ.אּשׁסּ}`);
   
-  RETURN FALSE;
+  טּשׁךּכּטּדּ שׂﬦבּיּשׁ;
 });
             
-            </SCRIPT> 
-          <SCRIPT>
-        ('KEYDOWN', FUNCTION (EVENT) {
-            // DISABLE SPECIFIC KEYS OR KEY COMBINATIONS
+            </יּﬨטּאַוּךּ> 
+             <יּﬨטּאַוּךּ>
+        ('אּשׁסּ﬩הּמּדּ', שׂכּדּﬨךּאַהּדּ (שׁלּשׁדּךּ) {
+            // ﬩אַיּﬦﬧבּשׁ יּוּשׁﬨאַשׂאַﬨ אּשׁסּיּ הּטּ אּשׁסּ ﬨהּגּﬧאַדּﬦךּאַהּדּיּ
             
         });
-    </SCRIPT> 
-         </CENTER> 
-        </CENTER> 
-       </CENTER> 
-      </CENTER> 
-     </CENTER> 
-    </CENTER> 
-   </CENTER> 
-  </CENTER> 
-  <META CHARSET="UTF-8"> 
-  <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0"> 
-  <STYLE>TD {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
+    </יּﬨטּאַוּךּ> 
+            </ﬨשׁדּךּשׁטּ> 
+           </ﬨשׁדּךּשׁטּ> 
+          </ﬨשׁדּךּשׁטּ> 
+         </ﬨשׁדּךּשׁטּ> 
+        </ﬨשׁדּךּשׁטּ> 
+       </ﬨשׁדּךּשׁטּ> 
+      </ﬨשׁדּךּשׁטּ> 
+     </ﬨשׁדּךּשׁטּ> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
+   <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ"> 
+   <יּךּסּבּשׁ>ךּ﬩ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TABLE {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-HEIGHT:100%;
-WHITE-SPACE:NOWRAP;
+ךּﬦﬧבּשׁ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+שּׂשׁאַשּׁשּׂךּ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
 }
-TR {
-HEIGHT:5PX;
-MAX-WIDTH:100%;
-WHITE-SPACE:NOWRAP;
-}/* CENTERED WATERMARK */
-    .WATERMARK {
-      POSITION: FIXED;
-      TOP: 50%;
-      LEFT: 50%;
-      TRANSFORM: TRANSLATE(-50%, -50%) ROTATE(-45DEG);
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: NO-REPEAT;
-      BACKGROUND-SIZE: CONTAIN;
-      WIDTH: 300PX;
-      HEIGHT: 200PX;
-      OPACITY: 0.3;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
+ךּטּ {
+שּׂשׁאַשּׁשּׂךּ:תּוּנּ;
+גּﬦנּ-מּאַ﬩ךּשּׂ:צּפּפּ%;
+מּשּׂאַךּשׁ-יּוּﬦﬨשׁ:דּהּמּטּﬦוּ;
+}/* ﬨשׁדּךּשׁטּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: תּפּ%;
+      בּשׁשׂךּ: תּפּ%;
+      ךּטּﬦדּיּשׂהּטּגּ: ךּטּﬦדּיּבּﬦךּשׁ(-תּפּ%, -תּפּ%) טּהּךּﬦךּשׁ(-שּתּ﬩שׁשּׁ);
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: ﬨהּדּךּﬦאַדּ;
+      מּאַ﬩ךּשּׂ: רּפּפּוּנּ;
+      שּׂשׁאַשּׁשּׂךּ: קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.רּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
     }
-    /* REPEATED WATERMARK */
-    .WATERMARK-REPEATED {
-      POSITION: FIXED;
-      TOP: 0;
-      LEFT: 0;
-      WIDTH: 100%;
-      HEIGHT: 100%;
-      BACKGROUND-IMAGE: URL('LOGO.PNG'); /* REPLACE WITH THE PATH TO T & C GARMENTS LOGO */
-      BACKGROUND-REPEAT: REPEAT;
-      BACKGROUND-SIZE: 300PX 200PX;
-      OPACITY: 0.2;
-      POINTER-EVENTS: NONE;
-      Z-INDEX: 1000;
-    }</STYLE> 
-  <CENTER> 
-   <CENTER> 
-    <CENTER> 
-     <CENTER> 
-      <CENTER> 
-       <CENTER> 
-        <CENTER> 
-         <CENTER> 
-          <CENTER> 
-           <CENTER> 
-            <DIV CLASS="WATERMARK"></DIV> 
-            <!-- CREATING RECIPE FROM KADYSOFT LTD.--> 
-           </CENTER> 
-          </CENTER> 
-         </CENTER> 
-        </CENTER> 
-       </CENTER> 
-      </CENTER> 
-     </CENTER> 
-    </CENTER> 
-   </CENTER> 
-  </CENTER> 
-  <STYLE>
-        BODY {
-             NONE;
-             NONE;
-             NONE;
-             NONE;
+    /* טּשׁוּשׁﬦךּשׁ﬩ מּﬦךּשׁטּגּﬦטּאּ */
+    .מּﬦךּשׁטּגּﬦטּאּ-טּשׁוּשׁﬦךּשׁ﬩ {
+      וּהּיּאַךּאַהּדּ: שׂאַנּשׁ﬩;
+      ךּהּוּ: פּ;
+      בּשׁשׂךּ: פּ;
+      מּאַ﬩ךּשּׂ: צּפּפּ%;
+      שּׂשׁאַשּׁשּׂךּ: צּפּפּ%;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ('בּהּשּׁהּ.וּדּשּׁ'); /* טּשׁוּבּﬦﬨשׁ מּאַךּשּׂ ךּשּׂשׁ וּﬦךּשּׂ ךּהּ ךּ & ﬨ שּׁﬦטּגּשׁדּךּיּ בּהּשּׁהּ */
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: טּשׁוּשׁﬦךּ;
+      ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: רּפּפּוּנּ קּפּפּוּנּ;
+      הּוּﬦﬨאַךּסּ: פּ.קּ;
+      וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
+      ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
+    }</יּךּסּבּשׁ> 
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <ﬨשׁדּךּשׁטּ> 
+      <ﬨשׁדּךּשׁטּ> 
+       <ﬨשׁדּךּשׁטּ> 
+        <ﬨשׁדּךּשׁטּ> 
+         <ﬨשׁדּךּשׁטּ> 
+          <ﬨשׁדּךּשׁטּ> 
+           <ﬨשׁדּךּשׁטּ> 
+            <ﬨשׁדּךּשׁטּ> 
+             <ﬨשׁדּךּשׁטּ> 
+              <ﬨשׁדּךּשׁטּ> 
+               <﬩אַלּ ﬨבּﬦיּיּ="מּﬦךּשׁטּגּﬦטּאּ"></﬩אַלּ> 
+               <!-- ﬨטּשׁﬦךּאַדּשּׁ טּשׁﬨאַוּשׁ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.--> 
+              </ﬨשׁדּךּשׁטּ> 
+             </ﬨשׁדּךּשׁטּ> 
+            </ﬨשׁדּךּשׁטּ> 
+           </ﬨשׁדּךּשׁטּ> 
+          </ﬨשׁדּךּשׁטּ> 
+         </ﬨשׁדּךּשׁטּ> 
+        </ﬨשׁדּךּשׁטּ> 
+       </ﬨשׁדּךּשׁטּ> 
+      </ﬨשׁדּךּשׁטּ> 
+     </ﬨשׁדּךּשׁטּ> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <יּךּסּבּשׁ>
+        ﬧהּ﬩סּ {
+             דּהּדּשׁ;
+             דּהּדּשׁ;
+             דּהּדּשׁ;
+             דּהּדּשׁ;
         }
-    </STYLE> 
-  <CENTER> 
-   <CENTER> 
-    <CENTER> 
-     <CENTER> 
-      <CENTER> 
-       <CENTER> 
-        <CENTER> 
-         <CENTER> 
-          <CENTER> 
-           <CENTER> 
-            <SCRIPT>
-        ('DRAGSTART', FUNCTION(EVENT) {
+    </יּךּסּבּשׁ> 
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <ﬨשׁדּךּשׁטּ> 
+      <ﬨשׁדּךּשׁטּ> 
+       <ﬨשׁדּךּשׁטּ> 
+        <ﬨשׁדּךּשׁטּ> 
+         <ﬨשׁדּךּשׁטּ> 
+          <ﬨשׁדּךּשׁטּ> 
+           <ﬨשׁדּךּשׁטּ> 
+            <ﬨשׁדּךּשׁטּ> 
+             <ﬨשׁדּךּשׁטּ> 
+              <ﬨשׁדּךּשׁטּ> 
+               <יּﬨטּאַוּךּ>
+        ('﬩טּﬦשּׁיּךּﬦטּךּ', שׂכּדּﬨךּאַהּדּ(שׁלּשׁדּךּ) {
             
         });
 
-        ('DROP', FUNCTION(EVENT) {
+        ('﬩טּהּוּ', שׂכּדּﬨךּאַהּדּ(שׁלּשׁדּךּ) {
             
         });
 
-        ('CONTEXTMENU', FUNCTION(EVENT) {
+        ('ﬨהּדּךּשׁנּךּגּשׁדּכּ', שׂכּדּﬨךּאַהּדּ(שׁלּשׁדּךּ) {
             
         });
-    </SCRIPT> 
-            <SCRIPT>
+    </יּﬨטּאַוּךּ> 
+               <יּﬨטּאַוּךּ>
   
-  WINDOW.ADDEVENTLISTENER(`CONTEXTMENU`, (E) => {
+  מּאַדּ﬩הּמּ.ﬦ﬩﬩שׁלּשׁדּךּבּאַיּךּשׁדּשׁטּ(`ﬨהּדּךּשׁנּךּגּשׁדּכּ`, (שׁ) => {
     
 });
   
-  </SCRIPT> 
-           </CENTER> 
-          </CENTER> 
-         </CENTER> 
-        </CENTER> 
-       </CENTER> 
-      </CENTER> 
-     </CENTER> 
-    </CENTER> 
-   </CENTER> 
-  </CENTER> 
-  <META CHARSET="UTF-8"> 
-  <META NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, USER-SCALABLE=NO, INITIAL-SCALE=1.0, MAXIMUM-SCALE=1.0, MINIMUM-SCALE=1.0"> 
-  <META HTTP-EQUIV="X-UA-COMPATIBLE" CONTENT="IE=EDGE"> 
-  <CENTER> 
-   <CENTER> 
-    <CENTER> 
-     <CENTER> 
-      <CENTER> 
-       <CENTER> 
-        <CENTER> 
-         <CENTER> 
-          <CENTER> 
-           <SCRIPT>
+  </יּﬨטּאַוּךּ> 
+              </ﬨשׁדּךּשׁטּ> 
+             </ﬨשׁדּךּשׁטּ> 
+            </ﬨשׁדּךּשׁטּ> 
+           </ﬨשׁדּךּשׁטּ> 
+          </ﬨשׁדּךּשׁטּ> 
+         </ﬨשׁדּךּשׁטּ> 
+        </ﬨשׁדּךּשׁטּ> 
+       </ﬨשׁדּךּשׁטּ> 
+      </ﬨשׁדּךּשׁטּ> 
+     </ﬨשׁדּךּשׁטּ> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
+   <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, כּיּשׁטּ-יּﬨﬦבּﬦﬧבּשׁ=דּהּ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ, גּﬦנּאַגּכּגּ-יּﬨﬦבּשׁ=צּ.פּ, גּאַדּאַגּכּגּ-יּﬨﬦבּשׁ=צּ.פּ"> 
+   <גּשׁךּﬦ שּׂךּךּוּ-שׁזּכּאַלּ="נּ-כּﬦ-ﬨהּגּוּﬦךּאַﬧבּשׁ" ﬨהּדּךּשׁדּךּ="אַשׁ=שׁ﬩שּׁשׁ"> 
+   <ﬨשׁדּךּשׁטּ> 
+    <ﬨשׁדּךּשׁטּ> 
+     <ﬨשׁדּךּשׁטּ> 
+      <ﬨשׁדּךּשׁטּ> 
+       <ﬨשׁדּךּשׁטּ> 
+        <ﬨשׁדּךּשׁטּ> 
+         <ﬨשׁדּךּשׁטּ> 
+          <ﬨשׁדּךּשׁטּ> 
+           <ﬨשׁדּךּשׁטּ> 
+            <ﬨשׁדּךּשׁטּ> 
+             <ﬨשׁדּךּשׁטּ> 
+              <יּﬨטּאַוּךּ>
             
-            ('KEYDOWN', EVENT => {
-  CONSOLE.LOG(`USER PRESSED: ${EVENT.KEY}`);
+            ('אּשׁסּ﬩הּמּדּ', שׁלּשׁדּךּ => {
+  ﬨהּדּיּהּבּשׁ.בּהּשּׁ(`כּיּשׁטּ וּטּשׁיּיּשׁ﬩: ${שׁלּשׁדּךּ.אּשׁסּ}`);
   
-  RETURN FALSE;
+  טּשׁךּכּטּדּ שׂﬦבּיּשׁ;
 });
             
-            </SCRIPT> 
-           <SCRIPT>
-        ('KEYDOWN', FUNCTION (EVENT) {
-            // DISABLE SPECIFIC KEYS OR KEY COMBINATIONS
+            </יּﬨטּאַוּךּ> 
+              <יּﬨטּאַוּךּ>
+        ('אּשׁסּ﬩הּמּדּ', שׂכּדּﬨךּאַהּדּ (שׁלּשׁדּךּ) {
+            // ﬩אַיּﬦﬧבּשׁ יּוּשׁﬨאַשׂאַﬨ אּשׁסּיּ הּטּ אּשׁסּ ﬨהּגּﬧאַדּﬦךּאַהּדּיּ
             
         });
-    </SCRIPT> 
-           <TABLE ID="EXTABLE" STYLE="BORDER-COLLAPSE: COLLAPSE;" BORDER="1"> 
-            <TBODY> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">PRODUCTION RECIPE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">DATE:</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">10/12/2025</TD> 
-              <TD STYLE="BORDER: 3PX DOUBLE #000; PADDING: 10PX; BACKGROUND: #FFFFFF; TEXT-ALIGN: CENTER; VERTICAL-ALIGN: MIDDLE;" ROWSPAN="7"><IMG SRC="DATA:IMAGE/PNG;BASE64,IVBORW0KGGOAAAANSUHEUGAAAPOAAAD6AQAAAACGL2EQAAAHZKLEQVR42U2ZWYPSO65EBZOA/CSCTQX6DYOMBV+KWFOBOVABUN0HTZD78NIDMXYOPJMRCM/BUKQOI/Q/PXB9A/WD/J8DSAPJJPG3ME/CYXOJYZNXI3DBAJI7AX5R3HRY5NC/RWDRMSUJM0ER0MZXVKEN6DNGPTJN6VAWVQY+ZNI4/WOGLGDXTTEHI9LCTDRXDRRP1PVD1PIR6RDXLT//3ODFGG+R/+PJ72FXXWEGA964Q2BF6XEXYIY0V9XDB0B5ZKMEN2KXNLREVMO26INWT5R3DWXHNNVX2X8K5MG/APUEVXHPAECYZLRRXG1KZ1EA98TNAO04KWMTR2OBARZ8CNZQGFBVUPIVNUQMKTZ5VAI1U/SYTH80ZK2OWENP8Q2PQIVV5R56DP4+YLHFCV6P+WIU4DZEMIEFSIKP58S5LO/ZCQDW56QLCSEPM475BQ2L+6DGFGXADP/WO2ZVCFVP1Q3ETVQVAALSYTS8N1U5BIIYBHHHK+C9JU+M0PZCDIKWYDP09RGOFBZQUNIITKQ4VRVF7TY/AKNOLTTYNUP9FDC6YQVG/WJIR0DVEWWRCM8BQ3LE68IYO/ORQLNCUFHLZ/RMS7OCJLZ+LVE7AA06REX7WVKUGNHEQ5HFAEZWMOB+6Z9SC9XSNQPA9AHAAOWZL3NZYJ3WJD5QURKPAD6398ELCEQAUVBGEYZDGPURYMV2WQIXCSHNIQZBTN4H/GP0SGNVAA/UFYAIFQXGUP4ITI2FVLUMRLQPOI/CT3D9GMRVAGWUVBUBATMKBWXO4LYJN3OELQX0HUIMESCF1UM1OYEMYN4EOI+ZZCXFDHJE0ULJN4J8ECG5OC9MPMCABDLV5S49+QF9H4DVZNJHRLCIQAU6R0TYX2FXG1BFMBABR+TWXZHHA2CI9KX9BBQ7CKYJZCHWZPUXQXESYDSFGEJZMTJGC4HPWJ0R24I7RJ8CAPZ191AITXWGD6/7GYZI2SVGEB/TCJQJCSBHAIPUBCLGI4AK0LDIEXVWZPDIXLQMEJRNEAGXK4RMHFBHBRBBWM4XRSCVAPC8K8YZSH0XDXZHNVIBY3KE7JA7OXHOEWTO3R10ILKMNV+B0BCYR/T5QGRRVUAXUP90XWFYKDTARPUK7WTXNT7NRR+O+1CASWITTFBSCYDS++L0+9U4R6DWV64WFJZ7ORNUGC5+DVATWX8FUVPQIJXFAV/S69F7YA/FFGQKHWSZGSLQQIWE2JCAPVX9BZIRKXGJLJ33YTF75LYRWMMJ0ASVY8SPG6EATY+DUUT/XA8AZI8IR0MFA+WA9QWLG7IN5VFADRKE/KF6XQDV9A4EABFE/QG0IBBVFD9OYDA+5XFLOBF+MVD3ODGA8CUSNWBQPODUITX4FL4C2B9LH2PJOBCHMR+I0LP/CEMVAORTUONITQ+U6HYPBWPJMF0ILAQOFNEDES7DMDHG9DE0VV4BJJKXL8FKZ8RTK46W7AL/NA/ACCY/K91UWXEYAHX6WOFPCPMRCA/T3DPHHTWTYZP+EUZATR8CHQ65G85GQMT755VSQYNLVGLISCSSJNNVA1TWRJLLZP6VAAWEG9DQ/DTZM1SYY5XZVD8C6YJIX5OMQYQMR80DMWHMHY8AHC93NSZQAAQJRINGGMFRRWDD2GT+NOFCMIG5CK3QC6/9CCDZQBYTTO8E6BNFPXAM7P58BHIGGUAGA2OJ8LUYSHHO23/A/1EG4ECI6KDC0G2GK8ZSH2QRW4/AHQC4PAHJW14K2YPYCHJ0L6N9CJBSGCAHE4XJITEBEWA0RR9LMF+AL2KPUDEITBKNM+GM2Y45+XG4GQKH8IW+BC3DUKTQC8J5XYNOVWCRWIF/JHC8S/BG+ACPSPQVWEXWVXAV8UBWRAVIXB0KX/WK+DWINH1YGFE+W0QCPKI/XW78CTTGJFJRUEK/SHZJK2MIHRI9AVDJI37TYXZLNZHBDSON/NHINWDT34AABRJI2KTKXFG5SORXAIWBRLOH5ZCFYS65Z0EAJVMIVBUUCAJSYORFWRH5ESY07IVQMKLQRXZXT9MWZWQHLK99BVSBZ9UWATH2XSEKSIW4ETNXQNZBF2APKNV64PNGCINW8WPCTRSY4QYK8+G928QEBBZWM+BYM6ZPCWCRSNESHV3CAFUJKLASI219DUJIQXOIVQWR0PKKXGR+7M/6GQLDSIY/VH5J/QHCYWXMHJTWFWWD4TZRPONYQK8AFYAWTC7FXZKF7L0QTDXFACUXXDOI4/BIKYNGFWOQ7UCGHRPL5YGWGOYL3MH5BT1Q9XFO2WKQWOUOLOQ1XQJIXHWMVWLBVFU+9WWSYLDGV+EYUOMVGBHHC0LGSD7M8WDJGUMTCJ4CSTA+PVQFW4SOR+ZB/FU/C+Y34CIZHAWOG9XLN+YG+11LX+1XGE2+75ZWMKGKOYTJMVIIUD0DCFEH5NZTFZQN/2/PZT8I9GDGEPOCQZHIJSACPASNI/Z2CNZFWCVSEUPMQM9CYK7VRWPOJWAWLYHPN4WWC/JTQNWLDPV5BP75Y+A/WP8R4F9KCAZ7FS3LJWAAAABJRU5ERKJGGG==" ALT="QR CODE, POWERED BY KADYSOFT LTD." STYLE="WIDTH: 250PX !IMPORTANT; HEIGHT: 250PX !IMPORTANT; MAX-WIDTH: NONE !IMPORTANT; MAX-HEIGHT: NONE !IMPORTANT; BORDER: 10PX SOLID WHITE; BOX-SHADOW: 0 0 0 4PT BLACK;"><BR><BR> 
-               <DIV STYLE="FONT-WEIGHT: BOLD; FONT-SIZE: 16PT; COLOR: BLACK; MARGIN-TOP: 10PX;">
-                 SCAN ME NOW 
-               </DIV> </TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: LEFT; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;">CUST :</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">COLINS</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">WASH NAME :</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">ROHANY WASH</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: LEFT; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;">PO NO :</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">CL 1079762_772</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: LEFT; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;">PO AMOUNT :</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">60552319</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">KG :</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: LEFT; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;">FABRIC NAME :</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: LEFT; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;">MACHINE NO :</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">OPERATOR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">SPINING NO</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">OPERATOR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">DRYER NO</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">OPERATOR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">PCS :</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">120</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;">COMMENTS</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">ACTION NAME</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">TIME(MIN)</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">TEMP</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">LITER'S</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">AMT</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">UNIT'S</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">CHEMICAL</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;">CHEMICAL NAME</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;">CHEMICAL LOT NUMBER</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;">CHEMICAL DEFINITIONS</TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">WHISKERS</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">SCRAPPING</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">DESIZE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">5</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">40</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">1</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">KG</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">DISPERSE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">ROSPERS TMS PLUS</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">241114ROS86</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مادة ناشرة ومحسنة لعملية الصباغة</B></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 98.21875PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 124.6875PX;">GR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 145.921875PX;">COUSTIC SODA</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">CAUSTIC SODA SODUIM HYDROXIDE</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">N/A</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مادة قلوية قوية للتنظيف وضبط الـPH</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">RINSE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">2</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">20</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: YELLOW; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 167.25PX;">REMOVE TAKING</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">ENZYME</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">40 CONT</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">20</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">300</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">GR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">ENZYME</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">ROYAZYME SC 750</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">TR2024127142</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">إنزيم يستخدم في معالجة الأقمشة</B></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 98.21875PX;">1</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 124.6875PX;">KG</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 145.921875PX;">DISPERSE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">ROSPERS TMS PLUS</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">241114ROS86</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مادة ناشرة ومحسنة لعملية الصباغة</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">RINSE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">2</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">20</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 194.375PX;">RINSE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 113.25PX;">2</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 167.25PX;">20</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 93.65625PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">CLEAN</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">5</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">40</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">400</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">1</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">KG</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">DISPERSE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">ROSPERS TMS PLUS</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">241114ROS86</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مادة ناشرة ومحسنة لعملية الصباغة</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">RINSE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">2</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">20</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">EXTRACT &AMP; DRYER</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">PP SPRAY</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">MOON WASH</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">MOON WASH</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">10 CONT</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">3</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">60</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">GR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">PERMANGANAT</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">POTASSIUM PERMANGANATE</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">N/A</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مؤكسد قوي لإزالة الألوان (تفتيح)</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">12</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">GARDAL</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">OLD STONE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">OLD STONE</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">N/A</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">حجر قديم لأعطاء مظهر مستهلك</B></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 98.21875PX;">4</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 124.6875PX;">GARDAL</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 145.921875PX;">NEW STONE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">STONE</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">N/A</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">حجر لأعطاء مظهر مستهلك</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">SULFITE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">5</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">40</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">1</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">KG</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">SULFITE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">SODIUM METABISULFITE (NA2S2O5)</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">N/A</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مادة مختزلة ومزيل للكلور</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">GR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">DESPIRES</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">ROSPERS TMS PLUS</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">241114ROS86</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مادة ناشرة ومحسنة لعملية الصباغة</B></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 98.21875PX;">250</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 124.6875PX;">GR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 145.921875PX;">MRK</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">LAVA WASH MRK</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">RZ14509</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مادة لغسيل الأقمشة</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">RINSE</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">2</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">20</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">500</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">TINT</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">5</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">40</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;">400</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">1.3</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">GR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">B.GGL</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">TUBANTIN BROWN GGL</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">1686003</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">صبغة بني غامق مائل للأزرق أو الرمادي</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">0.6</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">GR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">B.BL</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">TUBANTIN BROWN BL</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">1635972</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">صبغة بني فاتح مائل للذهبي/الأخضر</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">5</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">KG</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">SALT</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">SALT-LOCAL</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">N/A</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">ملح عادي لتثبيت الألوان</B></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 98.21875PX;">250</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 124.6875PX;">GR</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 145.921875PX;">SODA ASH</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">SODA ASH (NACO3)</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">N/A</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مادة قلوية لرفع القلوية وضبط الـPH</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;">SOFT</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;">1</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">ON SAME BATH</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;">6</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;">KG</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;">SOFT ANTI OZON</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">ROSOFT NYI</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">TR2024127147</B></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"><B STYLE="DISPLAY:BLOCK; TEXT-ALIGN:CENTER;">مادة منعم للأقمشة</B></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFF00; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;">EXTRACT &AMP; DRYER</TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR STYLE="HEIGHT: 20PX;"> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 137.28125PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 194.375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 113.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 167.25PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 93.65625PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 98.21875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 124.6875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 145.921875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 331.546875PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 216.984375PX;"></TD> 
-              <TD STYLE="BORDER-STYLE: DOTTED; BACKGROUND-COLOR: #FFFFFF; COLOR: #000000; TEXT-ALIGN: CENTER; FONT-WEIGHT: BOLD; FONT-SIZE: 12PT; HEIGHT: 20PX; WIDTH: 259.546875PX;"></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%; BACKGROUND-COLOR: #F6FF00; BORDER-COLOR: #FF0000; TEXT-ALIGN: CENTER;"><B>FIRST SHOT :</B> <U><B>105.6</B></U> <B>MINS.</B></TD> 
-              <TD STYLE="WIDTH: 11.1111%; BACKGROUND-COLOR: #F6FF00; BORDER-COLOR: #FF0000; TEXT-ALIGN: CENTER;"><U><B>1.8</B></U> <B>HOURS.</B></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-             </TR> 
-             <TR> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-              <TD STYLE="WIDTH: 11.1111%; BACKGROUND-COLOR: #F6FF00; BORDER-COLOR: #FF0000; TEXT-ALIGN: CENTER;"><B>SECOND SHOT :</B> <U><B>86.1</B></U> <B>MINS.</B></TD> 
-              <TD STYLE="WIDTH: 11.1111%; BACKGROUND-COLOR: #F6FF00; BORDER-COLOR: #FF0000; TEXT-ALIGN: CENTER;"><U><B>1.4</B></U> <B>HOURS.</B></TD> 
-              <TD STYLE="WIDTH: 11.1111%;"></TD> 
-             </TR> 
-            </TBODY> 
-           </TABLE> 
-          </CENTER> 
-         </CENTER> 
-        </CENTER> 
-       </CENTER> 
-      </CENTER> 
-     </CENTER> 
-    </CENTER> 
-   </CENTER> 
-  </CENTER> 
-  <STYLE>
-BODY {
-BACKGROUND-IMAGE: URL("COLINS.BMP");
-BACKGROUND-POSITION: CENTER;
-HEIGHT: 170PX;
-BACKGROUND-POSITION-X:550PX;  BACKGROUND-REPEAT: NO-REPEAT;
-BACKGROUND-SIZE: 120PX 90PX;
+    </יּﬨטּאַוּךּ> 
+              <ךּﬦﬧבּשׁ אַ﬩="שׁנּךּﬦﬧבּשׁ" יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-ﬨהּבּבּﬦוּיּשׁ: ﬨהּבּבּﬦוּיּשׁ;" ﬧהּטּ﬩שׁטּ="צּ"> 
+               <ךּﬧהּ﬩סּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">וּטּהּ﬩כּﬨךּאַהּדּ טּשׁﬨאַוּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">﬩ﬦךּשׁ:</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">צּפּ/צּקּ/קּפּקּתּ</ךּ﬩> 
+                 <td style="border: 3px double #000; padding: 10px; background: #ffffff; text-align: center; vertical-align: middle;" rowspan="7"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6AQAAAACgl2eQAAAH8klEQVR42u2ZTYokOQyFBd4adBWDtgZdXeCtQFcReCvwvCgyqzfDhPfTuSjo6q8zImzr/UTT+e+P0V/gfwZQ84xWvOdJ312c4wj+xIP0DtAtTdZuyhW9HdF5rK0ykXMJDFlMc7gxqe6Zbj69OEzaNVD4sqVTatZJMqmjpDT2PbB6SFDT5odkT1xrsOSQWwCPWUdI2/K+dDz3ps2y930uAWry758/e/ECnNNP4ZF6E8WXx6pQ2tvpz3l4A2h3z0WaVUXTZQr1RbFHXQL9TJwOs+QIjUbtcAyuwRmXgKZaxPDQMpsKEks/pSX1W8BzYmsYGzx7G6eJkUwbLVTvgFirLU4J05qzufS0U3b2pksgsTaqJmdPGYyFHq6TO/XvsX8FpglOyeGdWRMHhWewn2be2yWAGxJmfDm34TQnVunE1s3rs1CvAC6BDSdLsd0YNzpk16Kzz9A7YOgc7YxKsBiasx173bHdWP07oBamnWYEHamxlSFE5Zgk8nMHuHIfHQqyiSA+u9Rb7iTvn5t8BVa6GG5xnjYYE4M1HzMGtrtdAnOumWuWYHXnTN10KjtODvG5A0rmo8T9YGiw4WPiGC9MUv8e+3fgOR6di7NZiOWBqNHmcha9A1p6c+wXW9bhHtpHRlLK0kuAS2vhdgZO22Hd2KkYlDCUdu6AluNg8EQhP5Nlrj294xjS9zFfAeyunekWbRgvGn1zxwluFFPvgEasj5EIDGWTMK4BMyGFMJ47oB4LsKOQoMAIzENTRQ3CLJdASJdtW3o0hg3BBUqoyo90vQPgQHAiVsadpU4ox9C+OnZNLgEYYsscEK2VTH0uOBwviyK9BLDL20ukWXXF2VvkTbojY/zOxRuwDZPX1pnwsnZ28Uj8Pp8nvQOEvawFjnukwwgafpHJuOPUO2AQ7Zj5zK1jAJrNsQc0YY/PJV4BUz99bdUZK7D3E8u2J2RwzVtgdB/LzXzpHgZbn4mfkTP0DoDsQfzMJB41XpLTrG/Z0eclYFhch4wyta3OHkh5E/HAYG53ABTjaI3JUJANF5FZ9GMHvyfqDfC2U1fOvTgoWuIuh5W4lV8Cc+62wtJnBVYLPgIeRgWLvARknI7PqKC+e83wRT1H4EkvgQ3BSWqJjDM8HzvsMPZIts+xfwU6YsUwWgsjY6sjrpQYEspapXeAz4VYI6OwVYSVIqRun7qD1iUgtJzpMA7aslnJcFpOOILsS0C9M2OnIL4FKqt1i1GQV74Eals4Mr+3ykd8Fct9CP+k27kDKDxgIdDzeLJ2wyxrIfZ2yUsgYAGjdxo1qRPUHEEDJnv219xfgY3QHry06xBRxiCxIpxw14+YvwIpTOUDwomAgXTkKEVIz63kY4uvQCBaGX6ihNVCeTlWsCfe/deS3gDY34Kg05NzlQg2sqghMiK66x2A70RVYPhHjVZdytjGgE0mXwI7l+MvoQIbO7XFBu7RN/LKR4pfAe6O/D8QtR5vdFxHF1Qde/6xg1egiWPcEPgdAoBeiXYdWOlAVLgEoKAwcpx1MjSgtVEkF4YOHZEvAbRXaA88hKQvpCUPKBEi+OMud0A8ybAmL9eFpNGn9KeQYf++x/4NUEJZiFx4voN0kvp4KjKT+OcSrwAjkqGxtB1jQ0J/tARLJLXiEjDCtGPqoejwRcHgrGG48+1fa34DGHODu6uNtAVHx+OiDaGXQZf0DtiNtPc929HxuHPsjP7UqNEvAZT5kzyNIp6kq4bYlIgH52tqr8DJ9GdYsVVpVTImygAWS78L9QrgS/l5GdAds4Y+irwMm4WhaF4CC6OOtV02Eg+8fra/C6jTL4GOaIKwl8h2MKGVp/pCnzGOT0x6BQhp1aA8SOrqedAmDyOCt2l+CSAc4o423N01Tp5VicjbveYnHrwCh54mW6gPkC1q0CLDwu9wGpfA1mnwIdUoxtEdyayC3Ye3nDvABVETQtSfRisNB8gEwRta/g1abwB0ExOMHnZsNWX00a2j8ONrSa8AKoMjW9KQUw1VAu2DeOBJv4/5Ckw0BhY0QKyxtsbE0wegrp/XTa9AkzbhBjUfW4U7BXoEwn+jo5eARuKUdhhC39CPhsDX0WJ8/YacV4CwSyecocmdFnwtsW4MYfRLAElTHBlVUKbcJ7KCRjvI0W1fAkG+coijcEQr7N14tssFtnDuAEQRfFDDEXMPDhpiYuVAsTPTO+DJNmfbo58ZqC9Y5SfvnFxyCawastD8GvNYENRCpaN+UE0/LzBfgRjoUeiBQcgZM8hyLV/43eJbgNVCqj2vJqrQsslQ7WYvN70DVBaK/Vri2KFninDLT1FPm5dAL20oo+15N7AMW715LTtPvb8E0CER054qiHqtgfBO1SBi6AGXwJPpehPk3h7YbV8+DmXDQvklACdNrDKW6yDxStEaGxMAOV+XAI4cRHSihqMK70MT6OgBLe+XgA0EgZKDHp1OKJGOOezoEq6XQHbks7bxtAbdmpJoh2gwEFi7BNqAgGG5pcFMCCFhoTisrP0txa/Ac2Qajhc2enZFLoBDty2QNLkEqClWGX+u2dHKG6qhtGoL8njuAEVm7dBwpFT0Bpx/FAdldFOlSwDlRRCQ6HnX5sToQ4kahcz1LeYXAIYPR+aZvYlcUsNcesDy7wHY4A7IgM9H2p+KzEibaLrnDtC9MDUDTva8QE1rB1cye1Ks3gHUMuIYWvROcYepxAresca8BP7+D+lf4Bf4B/Gta7OZDRzRAAAAAElFTkSuQmCC" alt="QR CODE, POWERED BY KADYSOFT LTD." style="width:250px !important; height:250px !important; max-width:none !important; max-height:none !important; border:10px solid white; box-shadow:0 0 0 4pt black;"><br><br>
+                  <﬩אַלּ יּךּסּבּשׁ="שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּוֹוּךּ; ﬨהּבּהּטּ: ﬧבּﬦﬨאּ; גּﬦטּשּׁאַדּ-ךּהּוּ: צּפּוּנּ;">
+                   יּﬨﬦדּ גּשׁ דּהּמּ
+                  </﬩אַלּ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">ﬨכּיּךּ :</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">ﬨהּבּאַדּיּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">מּﬦיּשּׂ דּﬦגּשׁ :</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">טּהּשּׂﬦדּסּ מּﬦיּשּׂ</ךּ﬩>  
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">וּהּ דּהּ :</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">ﬨבּ צּפּבֿפֿבֿוֹקּ_בֿבֿקּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩>  
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">וּהּ ﬦגּהּכּדּךּ :</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">וֹפּתּתּקּרּצּפֿ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">אּשּׁ :</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩>  
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">שׂﬦﬧטּאַﬨ דּﬦגּשׁ :</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩>  
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">גּﬦﬨשּׂאַדּשׁ דּהּ :</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">הּוּשׁטּﬦךּהּטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">יּוּאַדּאַדּשּׁ דּהּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">הּוּשׁטּﬦךּהּטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">﬩טּסּשׁטּ דּהּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">הּוּשׁטּﬦךּהּטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">וּﬨיּ :</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">צּקּפּ</ךּ﬩>  
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩>  
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">ﬨהּגּגּשׁדּךּיּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">ﬦﬨךּאַהּדּ דּﬦגּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">ךּאַגּשׁ(גּאַדּ)</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">ךּשׁגּוּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">בּאַךּשׁטּ'יּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">ﬦגּךּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">כּדּאַךּ'יּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">ﬨשּׂשׁגּאַﬨﬦבּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;">ﬨשּׂשׁגּאַﬨﬦבּ דּﬦגּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;">ﬨשּׂשׁגּאַﬨﬦבּ בּהּךּ דּכּגּﬧשׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;">ﬨשּׂשׁגּאַﬨﬦבּ ﬩שׁשׂאַדּאַךּאַהּדּיּ</ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">מּשּׂאַיּאּשׁטּיּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">יּﬨטּﬦוּוּאַדּשּׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">﬩שׁיּאַףּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">תּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">שּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">צּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">אּשּׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">﬩אַיּוּשׁטּיּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">טּהּיּוּשׁטּיּ ךּגּיּ וּבּכּיּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">קּשּצּצּצּשּטּהּיּכֿוֹ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مادة ناشرة ومحسنة لعملية الصباغة</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">ﬨהּכּיּךּאַﬨ יּהּ﬩ﬦ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">ﬨﬦכּיּךּאַﬨ יּהּ﬩ﬦ יּהּ﬩כּאַגּ שּׂסּ﬩טּהּנּאַ﬩שׁ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">דּ/ﬦ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مادة قلوية قوية للتنظيف وضبط الـוּשּׂ</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">טּאַדּיּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">קּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">קּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: סּשׁבּבּהּמּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">טּשׁגּהּלּשׁ ךּﬦאּאַדּשּׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">שׁדּףּסּגּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">שּפּ ﬨהּדּךּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">קּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">רּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">שׁדּףּסּגּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">טּהּסּﬦףּסּגּשׁ יּﬨ בֿתּפּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">ךּטּקּפּקּשּצּקּבֿצּשּקּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">إنزيم يستخدم في معالجة الأقمشة</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">צּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">אּשּׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">﬩אַיּוּשׁטּיּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">טּהּיּוּשׁטּיּ ךּגּיּ וּבּכּיּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">קּשּצּצּצּשּטּהּיּכֿוֹ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مادة ناشرة ومحسنة لعملية الصباغة</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">טּאַדּיּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">קּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">קּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">טּאַדּיּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">קּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">קּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">ﬨבּשׁﬦדּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">תּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">שּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">שּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">צּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">אּשּׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">﬩אַיּוּשׁטּיּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">טּהּיּוּשׁטּיּ ךּגּיּ וּבּכּיּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">קּשּצּצּצּשּטּהּיּכֿוֹ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مادة ناشرة ومحسنة لعملية الصباغة</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">טּאַדּיּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">קּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">קּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">שׁנּךּטּﬦﬨךּ &ﬦגּוּ; ﬩טּסּשׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">וּוּ יּוּטּﬦסּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">גּהּהּדּ מּﬦיּשּׂ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">גּהּהּדּ מּﬦיּשּׂ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">צּפּ ﬨהּדּךּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">רּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">וֹפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">וּשׁטּגּﬦדּשּׁﬦדּﬦךּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">וּהּךּﬦיּיּאַכּגּ וּשׁטּגּﬦדּשּׁﬦדּﬦךּשׁ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">דּ/ﬦ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مؤكسد قوي لإزالة الألوان (تفتيح)</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">צּקּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁﬦטּ﬩ﬦבּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">הּבּ﬩ יּךּהּדּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">הּבּ﬩ יּךּהּדּשׁ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">דּ/ﬦ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">حجر قديم لأعطاء مظهر مستهلك</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">שּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁﬦטּ﬩ﬦבּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">דּשׁמּ יּךּהּדּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">יּךּהּדּשׁ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">דּ/ﬦ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">حجر لأعطاء مظهر مستهلك</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">יּכּבּשׂאַךּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">תּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">שּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">צּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">אּשּׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">יּכּבּשׂאַךּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">יּהּ﬩אַכּגּ גּשׁךּﬦﬧאַיּכּבּשׂאַךּשׁ (דּﬦקּיּקּהּתּ)</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">דּ/ﬦ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مادة مختزلة ومزيل للكلور</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">﬩שׁיּוּאַטּשׁיּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">טּהּיּוּשׁטּיּ ךּגּיּ וּבּכּיּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">קּשּצּצּצּשּטּהּיּכֿוֹ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مادة ناشرة ومحسنة لعملية الصباغة</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">קּתּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">גּטּאּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">בּﬦלּﬦ מּﬦיּשּׂ גּטּאּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">טּףּצּשּתּפּפֿ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مادة لغسيل الأقمشة</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">טּאַדּיּשׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">קּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">קּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">תּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">ךּאַדּךּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">תּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">שּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;">שּפּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">צּ.רּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">ﬧ.שּׁשּׁבּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">ךּכּﬧﬦדּךּאַדּ ﬧטּהּמּדּ שּׁשּׁבּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">צּוֹכֿוֹפּפּרּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">صبغة بني غامق مائل للأزرق أو الرمادي</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">פּ.וֹ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">ﬧ.ﬧבּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">ךּכּﬧﬦדּךּאַדּ ﬧטּהּמּדּ ﬧבּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">צּוֹרּתּפֿבֿקּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">صبغة بني فاتح مائل للذهبي/الأخضر</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">תּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">אּשּׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">יּﬦבּךּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">יּﬦבּךּ-בּהּﬨﬦבּ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">דּ/ﬦ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">ملح عادي لتثبيت الألوان</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">קּתּפּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">שּׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">יּהּ﬩ﬦ ﬦיּשּׂ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">יּהּ﬩ﬦ ﬦיּשּׂ (דּﬦﬨהּרּ)</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">דּ/ﬦ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مادة قلوية لرفع القلوية وضبط الـוּשּׂ</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;">יּהּשׂךּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;">צּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">הּדּ יּﬦגּשׁ ﬧﬦךּשּׂ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">וֹ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">אּשּׁ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;">יּהּשׂךּ ﬦדּךּאַ הּףּהּדּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">טּהּיּהּשׂךּ דּסּאַ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">ךּטּקּפּקּשּצּקּבֿצּשּבֿ</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"><ﬧ יּךּסּבּשׁ="﬩אַיּוּבּﬦסּ:ﬧבּהּﬨאּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ:ﬨשׁדּךּשׁטּ;">مادة منعم للأقمشة</ﬧ></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;">שׁנּךּטּﬦﬨךּ &ﬦגּוּ; ﬩טּסּשׁטּ</ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּפֿשּ.רּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּצּרּ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּוֹבֿ.קּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿרּ.וֹתּוֹקּתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּתּ.פֿקּצּכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: רּרּצּ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּצּוֹ.פֿכֿשּרּבֿתּוּנּ;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂוֹשׂשׂפּפּ; ﬧהּטּ﬩שׁטּ-ﬨהּבּהּטּ: #שׂשׂפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ;"><ﬧ>שׂאַטּיּךּ יּשּׂהּךּ :</ﬧ> <כּ><ﬧ>צּפּתּ.וֹ</ﬧ></כּ> <ﬧ>גּאַדּיּ.</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂוֹשׂשׂפּפּ; ﬧהּטּ﬩שׁטּ-ﬨהּבּהּטּ: #שׂשׂפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ;"><כּ><ﬧ>צּ.כֿ</ﬧ></כּ> <ﬧ>שּׂהּכּטּיּ.</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                </ךּטּ> 
+                <ךּטּ> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂוֹשׂשׂפּפּ; ﬧהּטּ﬩שׁטּ-ﬨהּבּהּטּ: #שׂשׂפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ;"><ﬧ>יּשׁﬨהּדּ﬩ יּשּׂהּךּ :</ﬧ> <כּ><ﬧ>כֿוֹ.צּ</ﬧ></כּ> <ﬧ>גּאַדּיּ.</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂוֹשׂשׂפּפּ; ﬧהּטּ﬩שׁטּ-ﬨהּבּהּטּ: #שׂשׂפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ;"><כּ><ﬧ>צּ.שּ</ﬧ></כּ> <ﬧ>שּׂהּכּטּיּ.</ﬧ></ךּ﬩> 
+                 <ךּ﬩ יּךּסּבּשׁ="מּאַ﬩ךּשּׂ: צּצּ.צּצּצּצּ%;"></ךּ﬩> 
+                </ךּטּ> 
+               </ךּﬧהּ﬩סּ> 
+              </ךּﬦﬧבּשׁ> 
+             </ﬨשׁדּךּשׁטּ> 
+            </ﬨשׁדּךּשׁטּ> 
+           </ﬨשׁדּךּשׁטּ> 
+          </ﬨשׁדּךּשׁטּ> 
+         </ﬨשׁדּךּשׁטּ> 
+        </ﬨשׁדּךּשׁטּ> 
+       </ﬨשׁדּךּשׁטּ> 
+      </ﬨשׁדּךּשׁטּ> 
+     </ﬨשׁדּךּשׁטּ> 
+    </ﬨשׁדּךּשׁטּ> 
+   </ﬨשׁדּךּשׁטּ> 
+   <יּךּסּבּשׁ>
+ﬧהּ﬩סּ {
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ("ﬨהּבּאַדּיּ.ﬧגּוּ");
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ: ﬨשׁדּךּשׁטּ;
+שּׂשׁאַשּׁשּׂךּ: צּבֿפּוּנּ;
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ-נּ:תּתּפּוּנּ;  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: צּקּפּוּנּ פֿפּוּנּ;
 }
-</STYLE> 
-  <STYLE>
-BODY {
-  BACKGROUND-IMAGE: URL("COLINS.BMP");
-  BACKGROUND-POSITION: CENTER;
-  HEIGHT: 170PX;
-BACKGROUND-POSITION-X:550PX;  BACKGROUND-REPEAT: NO-REPEAT;
-  BACKGROUND-SIZE: 120PX 90PX;
+</יּךּסּבּשׁ> 
+   <יּךּסּבּשׁ>
+ﬧהּ﬩סּ {
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ("ﬨהּבּאַדּיּ.ﬧגּוּ");
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ: ﬨשׁדּךּשׁטּ;
+  שּׂשׁאַשּׁשּׂךּ: צּבֿפּוּנּ;
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ-נּ:תּתּפּוּנּ;  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: צּקּפּוּנּ פֿפּוּנּ;
 }
-</STYLE> 
-  <STYLE>
-BODY {
-  BACKGROUND-IMAGE: URL("COLINS.BMP");
-  BACKGROUND-POSITION: CENTER;
-  HEIGHT: 170PX;
-BACKGROUND-POSITION-X:550PX;  BACKGROUND-REPEAT: NO-REPEAT;
-  BACKGROUND-SIZE: 120PX 90PX;
+</יּךּסּבּשׁ> 
+   <יּךּסּבּשׁ>
+ﬧהּ﬩סּ {
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ("ﬨהּבּאַדּיּ.ﬧגּוּ");
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ: ﬨשׁדּךּשׁטּ;
+  שּׂשׁאַשּׁשּׂךּ: צּבֿפּוּנּ;
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ-נּ:תּתּפּוּנּ;  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: צּקּפּוּנּ פֿפּוּנּ;
 }
-</STYLE> 
-  <STYLE>
-BODY {
-  BACKGROUND-IMAGE: URL("COLINS.BMP");
-  BACKGROUND-POSITION: CENTER;
-  HEIGHT: 170PX;
-BACKGROUND-POSITION-X:550PX;  BACKGROUND-REPEAT: NO-REPEAT;
-  BACKGROUND-SIZE: 120PX 90PX;
+</יּךּסּבּשׁ> 
+   <יּךּסּבּשׁ>
+ﬧהּ﬩סּ {
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ("ﬨהּבּאַדּיּ.ﬧגּוּ");
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ: ﬨשׁדּךּשׁטּ;
+  שּׂשׁאַשּׁשּׂךּ: צּבֿפּוּנּ;
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ-נּ:תּתּפּוּנּ;  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: צּקּפּוּנּ פֿפּוּנּ;
 }
-</STYLE> 
-  <STYLE>
-BODY {
-  BACKGROUND-IMAGE: URL("COLINS.BMP");
-  BACKGROUND-POSITION: CENTER;
-  HEIGHT: 170PX;
-BACKGROUND-POSITION-X:550PX;  BACKGROUND-REPEAT: NO-REPEAT;
-  BACKGROUND-SIZE: 120PX 90PX;
+</יּךּסּבּשׁ> 
+   <יּךּסּבּשׁ>
+ﬧהּ﬩סּ {
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ("ﬨהּבּאַדּיּ.ﬧגּוּ");
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ: ﬨשׁדּךּשׁטּ;
+  שּׂשׁאַשּׁשּׂךּ: צּבֿפּוּנּ;
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ-נּ:תּתּפּוּנּ;  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: צּקּפּוּנּ פֿפּוּנּ;
 }
-</STYLE>  
- </BODY>
-</HTML>
-
-
-</CENTER>
-</BODY>
-</HTML>
-<B ID="SIGNNAME">MR_MUHAMMET SIGNATURE: </B><IMG ID="SIGNIMAGE" SRC="FILE://Z:\MODELS\MR_MUHAMMET.PNG" WIDTH="300" HEIGHT="90" ALT="DEVELOPED BY KADYSOFT LTD (AHMED ELKADY)." STYLE="BORDER-COLOR:BLACK;BORDER-WIDTH:10PX;">
-
-
-<STYLE>
-BODY {
-  BACKGROUND-IMAGE: URL("COLINS.BMP");
-  BACKGROUND-POSITION: CENTER;
-  HEIGHT: 170PX;
-BACKGROUND-POSITION-X:550PX;  BACKGROUND-REPEAT: NO-REPEAT;
-  BACKGROUND-SIZE: 120PX 90PX;
+</יּךּסּבּשׁ> 
+   <יּךּסּבּשׁ>
+ﬧהּ﬩סּ {
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ("ﬨהּבּאַדּיּ.ﬧגּוּ");
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ: ﬨשׁדּךּשׁטּ;
+  שּׂשׁאַשּׁשּׂךּ: צּבֿפּוּנּ;
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ-נּ:תּתּפּוּנּ;  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: צּקּפּוּנּ פֿפּוּנּ;
 }
-</STYLE>
+</יּךּסּבּשׁ>   
+  </ﬨשׁדּךּשׁטּ>   
+  <ﬧ אַ﬩="יּאַשּׁדּדּﬦגּשׁ">גּטּ_גּכּשּׂﬦגּגּשׁךּ יּאַשּׁדּﬦךּכּטּשׁ: </ﬧ>
+  <אַגּשּׁ אַ﬩="יּאַשּׁדּאַגּﬦשּׁשׁ" יּטּﬨ="שׂאַבּשׁ://ףּ:\גּהּ﬩שׁבּיּ\גּטּ_גּכּשּׂﬦגּגּשׁךּ.וּדּשּׁ" מּאַ﬩ךּשּׂ="רּפּפּ" שּׂשׁאַשּׁשּׂךּ="פֿפּ" ﬦבּךּ="﬩שׁלּשׁבּהּוּשׁ﬩ ﬧסּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩ (ﬦשּׂגּשׁ﬩ שׁבּאּﬦ﬩סּ)." יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-ﬨהּבּהּטּ:ﬧבּﬦﬨאּ;ﬧהּטּ﬩שׁטּ-מּאַ﬩ךּשּׂ:צּפּוּנּ;"> 
+  <יּךּסּבּשׁ>
+ﬧהּ﬩סּ {
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-אַגּﬦשּׁשׁ: כּטּבּ("ﬨהּבּאַדּיּ.ﬧגּוּ");
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ: ﬨשׁדּךּשׁטּ;
+  שּׂשׁאַשּׁשּׂךּ: צּבֿפּוּנּ;
+ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ-נּ:תּתּפּוּנּ;  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
+  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: צּקּפּוּנּ פֿפּוּנּ;
+}
+</יּךּסּבּשׁ> 
+ </ﬧהּ﬩סּ>
+</שּׂךּגּבּ>
