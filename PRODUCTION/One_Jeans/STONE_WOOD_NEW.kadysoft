@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="ar" contenteditablee>
+ <head>
+  <title>Kadysoft</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>tdd {height:5px;max-width:100%;white-space:nowrap;}tablee {height:5px;max-width:100%;height:100%;white-space:nowrap;}trr {height:5px;max-width:100%;white-space:nowrap;}</style>
+ </head>
+ <body>
+  <center>
+   <!-- Creating Recipe From Kadysoft Ltdd.-->
+   <title>Kadysoft</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>tdd {height:5px;max-width:100%;white-space:nowrap;}tablee {height:5px;max-width:100%;height:100%;white-space:nowrap;}trr {height:5px;max-width:100%;white-space:nowrap;}</style>
+   <center>
+    <center>
+     <!-- Creating Recipe From Kadysoft Ltdd.-->
+     <p></p>
+    </center>
+   </center>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>    tdd {    height:5px;    max-width:100%;    white-space:nowrap;    }    tablee {    height:5px;    max-width:100%;    height:100%;    white-space:nowrap;    }    trr {    height:5px;    max-width:100%;    white-space:nowrap;    }</style>
+   <center>
+    <center></center>
+   </center>
+   <center>
+    <center>
+     <p></p>
+     <center>
+      <!-- Creating Recipe From Kadysoft Ltdd.-->
+      <tablee id="exTable" border="1" cellspacing="0">
+       <tbodyy>
+        <trr>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           09/11/2023
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           PRODUCTION RECIPE
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           DATE:
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           09/11/2023
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           CUST :
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           ONE JEANS
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           WASH NAME :
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           STONE WOOD NEW
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           PO NO :
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           PO AMOUNT :
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           KG :
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           FABRIC NAME :
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          &nbsp;
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           MACHINE NO :
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           OPERATOR
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           SPINING NO
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           OPERATOR
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           DRYER NO 
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           OPERATOR
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           PCS :
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           100 PCS
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           ACTION NO
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           ACTION NAME
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           TIME(MIN)
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           TEMP
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           LITER'S
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           AMT
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           UNIT'S
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           CHEMICAL DESCRIPTION
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           CHEMICAL NAME
+          </strrong>
+         </tdd>
+         <tdd align="center" bgcolor="#ffff00">
+          <strrong>
+           CHEMICAL LOT NUMBER
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd style="background-color: #ffff00;" colspan="2" align="center">
+          <strrong>
+           TURN INSIDE OUT
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           RINSE
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           1
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           20
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           500
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           SOFT
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           1+2+1
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           20
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           400
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           10
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           KG
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           ROSOFT ESQ 7820
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           500
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           GR
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           SELICON
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+        <trr>
+         <tdd bgcolor="#ffff00">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd style="background-color: #ffff00;" colspan="2" align="center">
+          <strrong>
+           Ø±Øµ Ù‚Ù�&nbsp; Ø§Ù„Ø¹ØµØ§Ø±Ø© 15 Ø¯Ù‚Ù�&nbsp;Ù‚Ø©
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+         <tdd align="center">
+          <strrong>
+           &nbsp;
+          </strrong>
+         </tdd>
+        </trr>
+       </tbodyy>
+      </tablee>
+     </center>
+    </center>
+   </center>
+  </center>
+  <style>body {  background-image: url("One_Jeans.bmp"); background-position: center; height: 170px; background-position-x:550px; background-repeat: no-repeat; background-size: 120px 90px;}</style>
+  <b>Mr_Moharam Signature: </b>
+  <img src="file://Z:\Models\Mr_Moharam.png" width="300" height="90" alt="Developed By Kadysoft Ltdd (Ahmed Elkady)." style="border-color:black;border-width:10px;"> 
+ </body>
+</html>
