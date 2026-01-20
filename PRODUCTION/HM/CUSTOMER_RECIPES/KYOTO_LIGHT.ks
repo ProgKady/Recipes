@@ -48,12 +48,12 @@
       הּוּﬦﬨאַךּסּ: פּ.קּ;
       וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
       ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
-    }</יּךּסּבּשׁ>
+    }</יּךּסּבּשׁ> 
  </שּׂשׁﬦ﬩> 
- <ﬧהּ﬩סּ>
+ <ﬧהּ﬩סּ> 
   <ﬨשׁדּךּשׁטּ> 
    <﬩אַלּ ﬨבּﬦיּיּ="מּﬦךּשׁטּגּﬦטּאּ"></﬩אַלּ> 
-   <!-- ﬨטּשׁﬦךּאַדּשּׁ טּשׁﬨאַוּשׁ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.-->   
+   <!-- ﬨטּשׁﬦךּאַדּשּׁ טּשׁﬨאַוּשׁ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.--> 
    <ךּאַךּבּשׁ>אּﬦ﬩סּיּהּשׂךּ</ךּאַךּבּשׁ> 
    <גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"> 
    <גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ"> 
@@ -100,7 +100,7 @@
       הּוּﬦﬨאַךּסּ: פּ.קּ;
       וּהּאַדּךּשׁטּ-שׁלּשׁדּךּיּ: דּהּדּשׁ;
       ףּ-אַדּ﬩שׁנּ: צּפּפּפּ;
-    }</יּךּסּבּשׁ>   
+    }</יּךּסּבּשׁ> 
    <ﬨשׁדּךּשׁטּ> 
     <ﬨשׁדּךּשׁטּ> 
      <﬩אַלּ ﬨבּﬦיּיּ="מּﬦךּשׁטּגּﬦטּאּ"></﬩אַלּ> 
@@ -285,7 +285,7 @@
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּקּ.כֿתּפֿרּבֿתּוּנּ;"></ךּ﬩> 
-         <td style="BORDER: 3PX DOUBLE #000; PADDING: 10PX; BACKGROUND: #FFFFFF; TEXT-ALIGN: CENTER; VERTICAL-ALIGN: MIDDLE;" rowspan="7"><img src="data:image/png;base64,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" alt="★ Recipe Details ★
+         <td style="BORDER: 3PX DOUBLE #000; PADDING: 10PX; BACKGROUND: #FFFFFF; TEXT-ALIGN: CENTER; VERTICAL-ALIGN: MIDDLE;" rowspan="7"><img src="data:image/png;base64,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" alt="★ Recipe Details ★
 -------------------------
 • וּטּהּשּׁטּﬦגּגּשׁטּ : ﬦשּׂגּשׁ﬩ שׁבּאּﬦ﬩סּ.
 • ﬩שׁלּשׁבּהּוּשׁטּ : אּﬦ﬩סּיּהּשׂךּ בּךּ﬩.
@@ -293,9 +293,9 @@
 • טּשׁﬨאַוּשׁ : אּסּהּךּהּ_בּאַשּׁשּׂךּ.
 • ﬨכּיּךּהּגּשׁטּ : שּׂגּ.
 • זּכּﬦדּךּאַךּסּ : צּקּפּ
-• שׁ﬩אַךּהּטּ דּﬦגּשׁ : גּהּשּׂﬦגּשׁ﬩ גּהּיּךּﬦשׂﬦ.
-• בּﬦיּךּ כּוּ﬩ﬦךּשׁ : צּפּ/פּצּ/קּפּקּוֹ.
-• וּﬨיּ ﬨהּיּךּ : פּ.צּרּשּבֿשּתּקּפּכֿרּרּרּרּרּרּרּשּ $
+• שׁ﬩אַךּהּטּ דּﬦגּשׁ : גּכּשּׂﬦגּשׁךּ שׁטּﬦיּבּﬦדּ.
+• בּﬦיּךּ כּוּ﬩ﬦךּשׁ : קּפּ/פּצּ/קּפּקּוֹ.
+• וּﬨיּ ﬨהּיּךּ : פּ.צּתּכֿשּכֿצּכֿבֿתּ $
 
 • טּשׁﬨאַוּשׁיּ בּאַדּאּ : שּׂךּךּוּיּ://וּטּהּשּׁאּﬦ﬩סּ.שּׁאַךּשּׂכּﬧ.אַהּ/טּשׁﬨאַוּשׁיּיּךּהּטּשׁ/
 ךּשּׂﬦדּאּיּ שׂהּטּ כּיּאַדּשּׁ טּשׁﬨשׁךּﬦ שׂטּהּגּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩. ❤" יּךּסּבּשׁ="מּאַ﬩ךּשּׂ:קּתּפּוּנּ !אַגּוּהּטּךּﬦדּךּ; שּׂשׁאַשּׁשּׂךּ:קּתּפּוּנּ !אַגּוּהּטּךּﬦדּךּ; גּﬦנּ-מּאַ﬩ךּשּׂ:דּהּדּשׁ !אַגּוּהּטּךּﬦדּךּ; גּﬦנּ-שּׂשׁאַשּׁשּׂךּ:דּהּדּשׁ !אַגּוּהּטּךּﬦדּךּ; ﬧהּטּ﬩שׁטּ:צּפּוּנּ יּהּבּאַ﬩ מּשּׂאַךּשׁ; ﬧהּנּ-יּשּׂﬦ﬩הּמּ:פּ פּ פּ שּוּךּ ﬧבּﬦﬨאּ;"></ךּ﬩> 
@@ -311,7 +311,6 @@
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂפּפּ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">﬩ﬦךּשׁ:</ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּקּ.כֿתּפֿרּבֿתּוּנּ;">צּפּ/פּצּ/קּפּקּוֹ</ךּ﬩>  
-         <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
         </ךּטּ> 
         <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">ﬨכּיּךּ :</ךּ﬩> 
@@ -322,7 +321,6 @@
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">מּﬦיּשּׂ דּﬦגּשׁ :</ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּקּ.כֿתּפֿרּבֿתּוּנּ;">אּסּהּךּהּ בּאַשּׁשּׂךּ</ךּ﬩>  
-         <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
         </ךּטּ> 
         <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">וּהּ דּהּ :</ךּ﬩> 
@@ -333,7 +331,6 @@
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּקּ.כֿתּפֿרּבֿתּוּנּ;"></ךּ﬩>  
-         <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
         </ךּטּ> 
         <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">וּהּ ﬦגּהּכּדּךּ :</ךּ﬩> 
@@ -344,7 +341,6 @@
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">אּשּׁ :</ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּקּ.כֿתּפֿרּבֿתּוּנּ;"></ךּ﬩>  
-         <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
         </ךּטּ> 
         <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">שׂﬦﬧטּאַﬨ דּﬦגּשׁ :</ךּ﬩> 
@@ -355,7 +351,6 @@
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;"></ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;"></ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּקּ.כֿתּפֿרּבֿתּוּנּ;"></ךּ﬩>  
-         <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
         </ךּטּ> 
         <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: בּשׁשׂךּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;">גּﬦﬨשּׂאַדּשׁ דּהּ :</ךּ﬩> 
@@ -366,7 +361,6 @@
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: פֿכֿ.קּצּכֿבֿתּוּנּ;">הּוּשׁטּﬦךּהּטּ</ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּקּשּ.וֹכֿבֿתּוּנּ;">וּﬨיּ :</ךּ﬩> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּשּקּ.כֿתּפֿרּבֿתּוּנּ;">צּקּפּ</ךּ﬩>  
-         <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: קּתּפֿ.תּשּוֹכֿבֿתּוּנּ;"></ךּ﬩> 
         </ךּטּ> 
         <ךּטּ יּךּסּבּשׁ="שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ;"> 
          <ךּ﬩ יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-יּךּסּבּשׁ: ﬩הּךּךּשׁ﬩; ﬧﬦﬨאּשּׁטּהּכּדּ﬩-ﬨהּבּהּטּ: #שׂשׂשׂשׂשׂשׂ; ﬨהּבּהּטּ: #פּפּפּפּפּפּ; ךּשׁנּךּ-ﬦבּאַשּׁדּ: ﬨשׁדּךּשׁטּ; שׂהּדּךּ-מּשׁאַשּׁשּׂךּ: ﬧהּבּ﬩; שׂהּדּךּ-יּאַףּשׁ: צּקּוּךּ; שּׂשׁאַשּׁשּׂךּ: קּפּוּנּ; מּאַ﬩ךּשּׂ: צּרּבֿ.קּכֿצּקּתּוּנּ;"></ךּ﬩> 
@@ -1183,9 +1177,9 @@
 ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ-נּ:תּתּפּוּנּ;  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
   ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: צּקּפּוּנּ פֿפּוּנּ;
 }
-</יּךּסּבּשׁ>   
-  </ﬨשׁדּךּשׁטּ>   
-  <ﬧ אַ﬩="יּאַשּׁדּדּﬦגּשׁ">גּטּ_גּכּשּׂﬦגּגּשׁךּ יּאַשּׁדּﬦךּכּטּשׁ: </ﬧ>
+</יּךּסּבּשׁ> 
+  </ﬨשׁדּךּשׁטּ> 
+  <ﬧ אַ﬩="יּאַשּׁדּדּﬦגּשׁ">גּטּ_גּכּשּׂﬦגּגּשׁךּ יּאַשּׁדּﬦךּכּטּשׁ: </ﬧ> 
   <אַגּשּׁ אַ﬩="יּאַשּׁדּאַגּﬦשּׁשׁ" יּטּﬨ="שׂאַבּשׁ://ףּ:\גּהּ﬩שׁבּיּ\גּטּ_גּכּשּׂﬦגּגּשׁךּ.וּדּשּׁ" מּאַ﬩ךּשּׂ="רּפּפּ" שּׂשׁאַשּׁשּׂךּ="פֿפּ" ﬦבּךּ="﬩שׁלּשׁבּהּוּשׁ﬩ ﬧסּ אּﬦ﬩סּיּהּשׂךּ בּךּ﬩ (ﬦשּׂגּשׁ﬩ שׁבּאּﬦ﬩סּ)." יּךּסּבּשׁ="ﬧהּטּ﬩שׁטּ-ﬨהּבּהּטּ:ﬧבּﬦﬨאּ;ﬧהּטּ﬩שׁטּ-מּאַ﬩ךּשּׂ:צּפּוּנּ;"> 
   <יּךּסּבּשׁ>
 ﬧהּ﬩סּ {
@@ -1195,6 +1189,6 @@
 ﬧﬦﬨאּשּׁטּהּכּדּ﬩-וּהּיּאַךּאַהּדּ-נּ:תּתּפּוּנּ;  ﬧﬦﬨאּשּׁטּהּכּדּ﬩-טּשׁוּשׁﬦךּ: דּהּ-טּשׁוּשׁﬦךּ;
   ﬧﬦﬨאּשּׁטּהּכּדּ﬩-יּאַףּשׁ: צּקּפּוּנּ פֿפּוּנּ;
 }
-</יּךּסּבּשׁ> 
+</יּךּסּבּשׁ>   
  </ﬧהּ﬩סּ>
 </שּׂךּגּבּ>
