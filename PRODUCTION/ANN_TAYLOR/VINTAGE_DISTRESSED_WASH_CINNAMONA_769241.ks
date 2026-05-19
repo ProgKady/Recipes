@@ -1,45 +1,46 @@
-<style>
-        body {
-            user-select: none;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
+
+<יּךּסּבּשׁ>
+        ﬧהּ﬩סּ {
+            כּיּשׁטּ-יּשׁבּשׁﬨךּ: דּהּדּשׁ;
+            -מּשׁﬧאּאַךּ-כּיּשׁטּ-יּשׁבּשׁﬨךּ: דּהּדּשׁ;
+            -גּהּףּ-כּיּשׁטּ-יּשׁבּשׁﬨךּ: דּהּדּשׁ;
+            -גּיּ-כּיּשׁטּ-יּשׁבּשׁﬨךּ: דּהּדּשׁ;
         }
-    </style><script>
-        document.addEventListener('dragstart', function(event) {
-            event.preventDefault();
+    </יּךּסּבּשׁ><יּﬨטּאַוּךּ>
+        ﬩הּﬨכּגּשׁדּךּ.ﬦ﬩﬩שׁלּשׁדּךּבּאַיּךּשׁדּשׁטּ('﬩טּﬦשּׁיּךּﬦטּךּ', שׂכּדּﬨךּאַהּדּ(שׁלּשׁדּךּ) {
+            שׁלּשׁדּךּ.וּטּשׁלּשׁדּךּ﬩שׁשׂﬦכּבּךּ();
         });
 
-        document.addEventListener('drop', function(event) {
-            event.preventDefault();
+        ﬩הּﬨכּגּשׁדּךּ.ﬦ﬩﬩שׁלּשׁדּךּבּאַיּךּשׁדּשׁטּ('﬩טּהּוּ', שׂכּדּﬨךּאַהּדּ(שׁלּשׁדּךּ) {
+            שׁלּשׁדּךּ.וּטּשׁלּשׁדּךּ﬩שׁשׂﬦכּבּךּ();
         });
 
-        document.addEventListener('contextmenu', function(event) {
-            event.preventDefault();
+        ﬩הּﬨכּגּשׁדּךּ.ﬦ﬩﬩שׁלּשׁדּךּבּאַיּךּשׁדּשׁטּ('ﬨהּדּךּשׁנּךּגּשׁדּכּ', שׂכּדּﬨךּאַהּדּ(שׁלּשׁדּךּ) {
+            שׁלּשׁדּךּ.וּטּשׁלּשׁדּךּ﬩שׁשׂﬦכּבּךּ();
         });
-    </script><script>
+    </יּﬨטּאַוּךּ><יּﬨטּאַוּךּ>
   
-  window.addEventListener(`contextmenu`, (e) => {
-    e.preventDefault();
+  מּאַדּ﬩הּמּ.ﬦ﬩﬩שׁלּשׁדּךּבּאַיּךּשׁדּשׁטּ(`ﬨהּדּךּשׁנּךּגּשׁדּכּ`, (שׁ) => {
+    שׁ.וּטּשׁלּשׁדּךּ﬩שׁשׂﬦכּבּךּ();
 });
   
-  </script>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" /><script>
+  </יּﬨטּאַוּךּ>
+<גּשׁךּﬦ ﬨשּׂﬦטּיּשׁךּ="כּךּשׂ-כֿ"/>
+<גּשׁךּﬦ דּﬦגּשׁ="לּאַשׁמּוּהּטּךּ" ﬨהּדּךּשׁדּךּ="מּאַ﬩ךּשּׂ=﬩שׁלּאַﬨשׁ-מּאַ﬩ךּשּׂ, כּיּשׁטּ-יּﬨﬦבּﬦﬧבּשׁ=דּהּ, אַדּאַךּאַﬦבּ-יּﬨﬦבּשׁ=צּ.פּ, גּﬦנּאַגּכּגּ-יּﬨﬦבּשׁ=צּ.פּ, גּאַדּאַגּכּגּ-יּﬨﬦבּשׁ=צּ.פּ"/>
+		<גּשׁךּﬦ שּׂךּךּוּ-שׁזּכּאַלּ="נּ-כּﬦ-ﬨהּגּוּﬦךּאַﬧבּשׁ" ﬨהּדּךּשׁדּךּ="אַשׁ=שׁ﬩שּׁשׁ" /><יּﬨטּאַוּךּ>
             
-            document.addEventListener('keydown', event => {
-  console.log(`User pressed: ${event.key}`);
-  event.preventDefault();
-  return false;
+            ﬩הּﬨכּגּשׁדּךּ.ﬦ﬩﬩שׁלּשׁדּךּבּאַיּךּשׁדּשׁטּ('אּשׁסּ﬩הּמּדּ', שׁלּשׁדּךּ => {
+  ﬨהּדּיּהּבּשׁ.בּהּשּׁ(`כּיּשׁטּ וּטּשׁיּיּשׁ﬩: ${שׁלּשׁדּךּ.אּשׁסּ}`);
+  שׁלּשׁדּךּ.וּטּשׁלּשׁדּךּ﬩שׁשׂﬦכּבּךּ();
+  טּשׁךּכּטּדּ שׂﬦבּיּשׁ;
 });
             
-            </script><script>
-        document.addEventListener('keydown', function (event) {
-            // Disable specific keys or key combinations
-            event.preventDefault();
+            </יּﬨטּאַוּךּ><יּﬨטּאַוּךּ>
+        ﬩הּﬨכּגּשׁדּךּ.ﬦ﬩﬩שׁלּשׁדּךּבּאַיּךּשׁדּשׁטּ('אּשׁסּ﬩הּמּדּ', שׂכּדּﬨךּאַהּדּ (שׁלּשׁדּךּ) {
+            // ﬩אַיּﬦﬧבּשׁ יּוּשׁﬨאַשׂאַﬨ אּשׁסּיּ הּטּ אּשׁסּ ﬨהּגּﬧאַדּﬦךּאַהּדּיּ
+            שׁלּשׁדּךּ.וּטּשׁלּשׁדּךּ﬩שׁשׂﬦכּבּךּ();
         });
-    </script><!﬩הּﬨךּסּוּשׁ שּׂךּגּבּ>
+    </יּﬨטּאַוּךּ><!﬩הּﬨךּסּוּשׁ שּׂךּגּבּ>
 <שּׂךּגּבּ בּﬦדּשּׁ="ﬦטּ">
  <שּׂשׁﬦ﬩> 
   <ךּאַךּבּשׁ>אּﬦ﬩סּיּהּשׂךּ</ךּאַךּבּשׁ> 
